@@ -1,1 +1,1 @@
-This is the repository of all the code used by GAME4 to create the game BattleCommand.
+This branch has the code for the pic18f57q43 to receive data from the NRF24 and to drive the LEDs.
