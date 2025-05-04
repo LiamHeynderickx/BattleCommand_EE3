@@ -1,0 +1,2097 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug\pic_mirf.X.debug.o
+ivt0x8 CODE 0 8 8 12 1 2
+cinit CODE 0 10E48 10E48 110 1 2
+idloc IDLOC 5 200000 200000 40 1 1
+text0 CODE 0 11CA6 11CA6 9E 1 2
+text1 CODE 0 11060 11060 104 1 2
+text2 CODE 0 11ED8 11ED8 72 1 2
+text3 CODE 0 12696 12696 1E 1 2
+text4 CODE 0 10392 10392 246 1 2
+text5 CODE 0 10D22 10D22 126 1 2
+text6 CODE 0 118B2 118B2 B4 1 2
+text7 CODE 0 124DC 124DC 30 1 2
+text8 CODE 0 11B66 11B66 A0 1 2
+text9 CODE 0 12304 12304 36 1 2
+nvCOMRAM COMRAM 1 542 542 9 1 1
+text10 CODE 0 12200 12200 4A 1 2
+text11 CODE 0 120FC 120FC 58 1 2
+text12 CODE 0 1080C 1080C 222 1 2
+text13 CODE 0 11DD2 11DD2 84 1 2
+text14 CODE 0 12098 12098 64 1 2
+text15 CODE 0 11A16 11A16 AC 1 2
+text16 CODE 0 12596 12596 28 1 2
+text17 CODE 0 12154 12154 56 1 2
+text18 CODE 0 10000 10000 392 1 2
+text19 CODE 0 10F58 10F58 108 1 2
+text20 CODE 0 10BAA 10BAA 178 1 2
+text21 CODE 0 11336 11336 CE 1 2
+text22 CODE 0 10A2E 10A2E 17C 1 2
+text23 CODE 0 11AC2 11AC2 A4 1 2
+text24 CODE 0 1224A 1224A 48 1 2
+text25 CODE 0 11404 11404 CC 1 2
+text26 CODE 0 127D8 127D8 2 1 2
+text27 CODE 0 1233A 1233A 36 1 2
+text28 CODE 0 11966 11966 B0 1 2
+text29 CODE 0 117EE 117EE C4 1 2
+text30 CODE 0 126D2 126D2 1C 1 2
+text31 CODE 0 12634 12634 22 1 2
+text32 CODE 0 121AA 121AA 56 1 2
+text33 CODE 0 11FBC 11FBC 6E 1 2
+text34 CODE 0 1253C 1253C 2E 1 2
+text35 CODE 0 11262 11262 D4 1 2
+text36 CODE 0 12370 12370 36 1 2
+text37 CODE 0 125BE 125BE 28 1 2
+text38 CODE 0 11E56 11E56 82 1 2
+text39 CODE 0 125E6 125E6 28 1 2
+text40 CODE 0 126EE 126EE 1A 1 2
+text41 CODE 0 127CC 127CC C 1 2
+text42 CODE 0 11F4A 11F4A 72 1 2
+text43 CODE 0 123DC 123DC 34 1 2
+text44 CODE 0 122CC 122CC 38 1 2
+text45 CODE 0 126B4 126B4 1E 1 2
+text46 CODE 0 12292 12292 3A 1 2
+text47 CODE 0 12410 12410 34 1 2
+text48 CODE 0 12790 12790 12 1 2
+text49 CODE 0 12720 12720 18 1 2
+text50 CODE 0 11C06 11C06 A0 1 2
+text51 CODE 0 123A6 123A6 36 1 2
+text52 CODE 0 127A2 127A2 E 1 2
+text53 CODE 0 127B0 127B0 E 1 2
+text54 CODE 0 1277C 1277C 14 1 2
+text55 CODE 0 127BE 127BE E 1 2
+text56 CODE 0 11D44 11D44 8E 1 2
+text57 CODE 0 11728 11728 C6 1 2
+text58 CODE 0 11164 11164 FE 1 2
+text59 CODE 0 1202A 1202A 6E 1 2
+text60 CODE 0 12750 12750 16 1 2
+text61 CODE 0 105D8 105D8 234 1 2
+text62 CODE 0 12478 12478 32 1 2
+text63 CODE 0 12738 12738 18 1 2
+text64 CODE 0 1260E 1260E 26 1 2
+text65 CODE 0 12766 12766 16 1 2
+text66 CODE 0 1250C 1250C 30 1 2
+text67 CODE 0 12444 12444 34 1 2
+text68 CODE 0 1256A 1256A 2C 1 2
+text69 CODE 0 124AA 124AA 32 1 2
+text70 CODE 0 127DA 127DA 2 1 2
+idataBANK11 CODE 0 114D0 114D0 C8 1 1
+idataBANK12 CODE 0 11598 11598 C8 1 1
+idataBANK13 CODE 0 11660 11660 C8 1 1
+cstackCOMRAM COMRAM 1 501 501 36 1 1
+cstackBANK5 BANK5 1 560 560 86 1 1
+cstackBANK6 BANK6 1 600 600 E8 1 1
+cstackBANK7 BANK7 1 700 700 C8 1 1
+cstackBANK8 BANK8 1 800 800 C8 1 1
+cstackBANK9 BANK9 1 900 900 C8 1 1
+bssBANK5 BANK5 1 5E6 5E6 5 1 1
+bssBANK7 BANK7 1 7C8 7C8 20 1 1
+idataBANK6 CODE 0 12708 12708 18 1 1
+idataBANK8 CODE 0 12656 12656 20 1 1
+idataBANK9 CODE 0 12676 12676 20 1 1
+dataBANK6 BANK6 1 6E8 6E8 18 1 1
+dataBANK8 BANK8 1 8C8 8C8 20 1 1
+dataBANK9 BANK9 1 9C8 9C8 20 1 1
+dataBANK11 BANK11 1 B00 B00 C8 1 1
+dataBANK12 BANK12 1 C00 C00 C8 1 1
+dataBANK13 BANK13 1 D00 D00 C8 1 1
+bssBANK10 BANK10 1 A00 A00 C8 1 1
+bssBANK14 BANK14 1 E00 E00 C8 1 1
+bssCOMRAM COMRAM 1 537 537 B 1 1
+mediumconst MEDIUMCONST 0 FE52 FE52 1AE 1 2
+config CONFIG 4 300000 300000 A 1 1
+$C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+idloc IDLOC 5 200000 200000 40 1 1
+init CODE 0 1A 1A 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 A 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 5EB-5FF 1
+RAM 7E8-7FF 1
+RAM 8E8-8FF 1
+RAM 9E8-9FF 1
+RAM AC8-AFF 1
+RAM BC8-BFF 1
+RAM CC8-CFF 1
+RAM DC8-DFF 1
+RAM EC8-24FF 1
+SFR 0-4FF 1
+SFR 2500-25FF 1
+BANK5 5EB-5FF 1
+BANK7 7E8-7FF 1
+BANK8 8E8-8FF 1
+BANK9 9E8-9FF 1
+CONST 4-7 1
+CONST 1E-FE51 1
+CONST 127DC-1FFFF 1
+SMALLCONST 2600-FE51 1
+SMALLCONST 127DC-1FFFF 1
+CODE 4-7 1
+CODE 1E-FE51 1
+CODE 127DC-1FFFF 1
+BANK10 AC8-AFF 1
+BANK11 BC8-BFF 1
+BANK12 CC8-CFF 1
+BANK13 DC8-DFF 1
+BANK14 EC8-EFF 1
+BANK15 F00-FFF 1
+BANK16 1000-10FF 1
+BANK17 1100-11FF 1
+BANK18 1200-12FF 1
+BANK19 1300-13FF 1
+BANK20 1400-14FF 1
+BANK21 1500-15FF 1
+BANK22 1600-16FF 1
+BANK23 1700-17FF 1
+BANK24 1800-18FF 1
+BANK25 1900-19FF 1
+BANK26 1A00-1AFF 1
+BANK27 1B00-1BFF 1
+BANK28 1C00-1CFF 1
+BANK29 1D00-1DFF 1
+BANK30 1E00-1EFF 1
+BANK31 1F00-1FFF 1
+BANK32 2000-20FF 1
+BANK33 2100-21FF 1
+BANK34 2200-22FF 1
+BANK35 2300-23FF 1
+BANK36 2400-24FF 1
+BIGRAM 54B-55F 1
+BIGRAM 5EB-5FF 1
+BIGRAM 7E8-7FF 1
+BIGRAM 8E8-8FF 1
+BIGRAM 9E8-9FF 1
+BIGRAM AC8-AFF 1
+BIGRAM BC8-BFF 1
+BIGRAM CC8-CFF 1
+BIGRAM DC8-DFF 1
+BIGRAM EC8-24FF 1
+BIGSFR 0-4FF 1
+BIGSFR 2500-25FF 1
+COMRAM 54B-55F 1
+CONFIG 30000A-300011 1
+EEDATA 380000-3803FF 1
+MEDIUMCONST 2600-FE51 1
+MEDIUMCONST 127DC-1FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\pic_mirf.X.debug.o
+127DA text70 CODE >127:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+127DA text70 CODE >131:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+124AA text69 CODE >110:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+124AA text69 CODE >113:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+124AC text69 CODE >116:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+124C0 text69 CODE >118:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+124DA text69 CODE >120:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/tmr0.c
+1256A text68 CODE >208:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1256C text68 CODE >210:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1256C text68 CODE >212:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12570 text68 CODE >215:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12576 text68 CODE >218:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12578 text68 CODE >219:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1257C text68 CODE >221:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12580 text68 CODE >223:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12580 text68 CODE >226:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1258E text68 CODE >227:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12592 text68 CODE >228:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12594 text68 CODE >229:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12444 text67 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12444 text67 CODE >45:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12446 text67 CODE >47:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1244C text67 CODE >48:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1245C text67 CODE >49:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12460 text67 CODE >50:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12474 text67 CODE >51:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12476 text67 CODE >52:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1250C text66 CODE >207:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1250E text66 CODE >209:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1251E text66 CODE >210:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12520 text66 CODE >211:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12528 text66 CODE >212:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12538 text66 CODE >213:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1253A text66 CODE >215:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12766 text65 CODE >297:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12766 text65 CODE >299:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12778 text65 CODE >300:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1277A text65 CODE >301:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1260E text64 CODE >158:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1260E text64 CODE >160:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1261C text64 CODE >161:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1262A text64 CODE >162:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12630 text64 CODE >164:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12632 text64 CODE >165:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12738 text63 CODE >198:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1273A text63 CODE >200:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1273C text63 CODE >201:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12746 text63 CODE >202:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1274C text63 CODE >203:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1274E text63 CODE >204:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12478 text62 CODE >180:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12478 text62 CODE >182:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1247A text62 CODE >183:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12480 text62 CODE >184:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1249C text62 CODE >185:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1249E text62 CODE >194:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+124A8 text62 CODE >195:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+105D8 text61 CODE >65:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+105DA text61 CODE >66:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10620 text61 CODE >67:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10666 text61 CODE >68:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+106AC text61 CODE >69:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+106F2 text61 CODE >70:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10738 text61 CODE >71:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1077E text61 CODE >72:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+107C4 text61 CODE >73:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1080A text61 CODE >74:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12750 text60 CODE >76:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12752 text60 CODE >77:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12758 text60 CODE >78:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1275E text60 CODE >79:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12764 text60 CODE >80:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1202A text59 CODE >82:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1202C text59 CODE >83:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1202C text59 CODE >84:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12030 text59 CODE >86:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1203E text59 CODE >87:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12042 text59 CODE >89:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12050 text59 CODE >90:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12054 text59 CODE >92:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12062 text59 CODE >93:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12066 text59 CODE >95:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12074 text59 CODE >96:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12078 text59 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1207C text59 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12084 text59 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1208C text59 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12096 text59 CODE >98:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11164 text58 CODE >100:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11164 text58 CODE >101:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1116C text58 CODE >104:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1117A text58 CODE >105:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11186 text58 CODE >106:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11192 text58 CODE >107:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+111C0 text58 CODE >108:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+111CE text58 CODE >109:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+111FC text58 CODE >111:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1120E text58 CODE >112:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11230 text58 CODE >113:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11260 text58 CODE >114:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11728 text57 CODE >116:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11728 text57 CODE >118:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11744 text57 CODE >119:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11758 text57 CODE >122:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11760 text57 CODE >123:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1177C text57 CODE >124:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1179C text57 CODE >126:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+117BC text57 CODE >129:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+117D8 text57 CODE >130:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+117E0 text57 CODE >131:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+117EC text57 CODE >134:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11D44 text56 CODE >80:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D4C text56 CODE >83:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D68 text56 CODE >85:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D6C text56 CODE >90:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D6C text56 CODE >92:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D88 text56 CODE >94:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D98 text56 CODE >96:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11D9A text56 CODE >99:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11DAE text56 CODE >100:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11DC8 text56 CODE >103:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127BE text55 CODE >106:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127BE text55 CODE >107:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127CA text55 CODE >108:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+1277C text54 CODE >39:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+1277C text54 CODE >42:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+12782 text54 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+12784 text54 CODE >46:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+12786 text54 CODE >53:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+1278A text54 CODE >54:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+1278C text54 CODE >55:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+1278E text54 CODE >58:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/clock.c
+127B0 text53 CODE >155:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127B0 text53 CODE >156:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127BC text53 CODE >157:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127A2 text52 CODE >181:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127A2 text52 CODE >182:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+127AE text52 CODE >183:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123A6 text51 CODE >42:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123A6 text51 CODE >45:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123A8 text51 CODE >49:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123AA text51 CODE >50:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123AC text51 CODE >53:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123AE text51 CODE >57:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123B0 text51 CODE >58:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123B2 text51 CODE >60:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123C4 text51 CODE >65:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123C6 text51 CODE >66:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123C8 text51 CODE >68:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+123DA text51 CODE >71:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/interrupt.c
+11C06 text50 CODE >38:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C06 text50 CODE >43:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C08 text50 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C0A text50 CODE >45:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C0C text50 CODE >46:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C0E text50 CODE >47:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C10 text50 CODE >48:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C12 text50 CODE >52:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C16 text50 CODE >53:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C18 text50 CODE >54:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C1A text50 CODE >55:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C1C text50 CODE >56:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C1E text50 CODE >57:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C20 text50 CODE >62:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C24 text50 CODE >63:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C26 text50 CODE >64:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C2A text50 CODE >65:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C2C text50 CODE >66:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C30 text50 CODE >67:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C34 text50 CODE >72:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C38 text50 CODE >73:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C3A text50 CODE >74:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C3E text50 CODE >75:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C40 text50 CODE >76:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C44 text50 CODE >77:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C48 text50 CODE >82:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C4A text50 CODE >83:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C4C text50 CODE >84:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C4E text50 CODE >85:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C50 text50 CODE >86:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C52 text50 CODE >87:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C54 text50 CODE >93:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C56 text50 CODE >94:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C58 text50 CODE >95:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C5A text50 CODE >96:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C5C text50 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C60 text50 CODE >98:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C62 text50 CODE >103:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C64 text50 CODE >104:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C66 text50 CODE >105:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C68 text50 CODE >106:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C6A text50 CODE >107:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C6E text50 CODE >108:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C70 text50 CODE >113:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C74 text50 CODE >114:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C76 text50 CODE >115:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C78 text50 CODE >116:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C7A text50 CODE >120:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C7E text50 CODE >121:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C82 text50 CODE >122:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C86 text50 CODE >123:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C8A text50 CODE >128:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C8E text50 CODE >129:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C90 text50 CODE >130:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C92 text50 CODE >131:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C94 text50 CODE >132:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C96 text50 CODE >133:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C98 text50 CODE >134:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C9A text50 CODE >135:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C9C text50 CODE >136:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11C9E text50 CODE >137:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11CA0 text50 CODE >138:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11CA2 text50 CODE >139:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+11CA4 text50 CODE >142:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/pins.c
+12720 text49 CODE >68:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12720 text49 CODE >71:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12722 text49 CODE >72:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12724 text49 CODE >73:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12726 text49 CODE >76:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1272A text49 CODE >77:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1272E text49 CODE >78:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12730 text49 CODE >79:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12732 text49 CODE >80:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12734 text49 CODE >81:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12736 text49 CODE >83:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+12790 text48 CODE >38:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/system.c
+12790 text48 CODE >40:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/system.c
+12794 text48 CODE >41:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/system.c
+12798 text48 CODE >42:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/system.c
+1279C text48 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/system.c
+127A0 text48 CODE >45:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/system/src/system.c
+12410 text47 CODE >37:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12410 text47 CODE >38:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12414 text47 CODE >39:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12426 text47 CODE >38:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12442 text47 CODE >41:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12292 text46 CODE >208:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122A0 text46 CODE >210:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122A0 text46 CODE >212:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122A4 text46 CODE >215:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122AA text46 CODE >218:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122AC text46 CODE >219:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122B0 text46 CODE >221:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122B4 text46 CODE >223:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122B4 text46 CODE >226:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122C2 text46 CODE >227:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122C6 text46 CODE >228:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+122CA text46 CODE >229:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+126B4 text45 CODE >198:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126B8 text45 CODE >200:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126BA text45 CODE >201:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126C6 text45 CODE >202:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126CE text45 CODE >203:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126D0 text45 CODE >204:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+122CC text44 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+122CC text44 CODE >45:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+122CE text44 CODE >47:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+122D6 text44 CODE >48:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+122E6 text44 CODE >49:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+122EC text44 CODE >50:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12300 text44 CODE >51:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12302 text44 CODE >52:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+123DC text43 CODE >207:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+123E0 text43 CODE >209:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+123F2 text43 CODE >210:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+123F4 text43 CODE >211:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+123FC text43 CODE >212:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1240C text43 CODE >213:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1240E text43 CODE >215:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F4A text42 CODE >343:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F4A text42 CODE >345:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F60 text42 CODE >348:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F72 text42 CODE >349:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F86 text42 CODE >351:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F8C text42 CODE >352:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F92 text42 CODE >353:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11F9C text42 CODE >354:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FA0 text42 CODE >357:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FA6 text42 CODE >358:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FB0 text42 CODE >359:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FBA text42 CODE >361:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+127CC text41 CODE >311:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+127CC text41 CODE >313:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+127CE text41 CODE >314:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+127D4 text41 CODE >315:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+127D6 text41 CODE >316:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126EE text40 CODE >297:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126EE text40 CODE >299:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12702 text40 CODE >300:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12706 text40 CODE >301:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125E6 text39 CODE >303:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125E6 text39 CODE >304:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125F0 text39 CODE >305:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125F2 text39 CODE >306:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125FE text39 CODE >307:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12600 text39 CODE >308:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1260C text39 CODE >309:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E56 text38 CODE >89:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E56 text38 CODE >91:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E68 text38 CODE >92:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E78 text38 CODE >93:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E84 text38 CODE >94:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E8E text38 CODE >95:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11EA6 text38 CODE >96:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11EBE text38 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11ECA text38 CODE >98:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11ED6 text38 CODE >99:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125BE text37 CODE >158:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125BE text37 CODE >160:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125CE text37 CODE >161:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125DC text37 CODE >162:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125E2 text37 CODE >164:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+125E4 text37 CODE >165:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12370 text36 CODE >180:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12370 text36 CODE >182:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12372 text36 CODE >183:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12378 text36 CODE >184:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12396 text36 CODE >185:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12398 text36 CODE >194:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+123A4 text36 CODE >195:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11262 text35 CODE >90:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11266 text35 CODE >92:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11266 text35 CODE >93:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11276 text35 CODE >95:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11294 text35 CODE >96:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+112B8 text35 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+112E0 text35 CODE >98:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11306 text35 CODE >99:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1132A text35 CODE >100:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1132C text35 CODE >101:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11330 text35 CODE >102:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11330 text35 CODE >103:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11334 text35 CODE >104:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+11334 text35 CODE >109:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/spi/src/spi1.c
+1253C text34 CODE >70:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1253C text34 CODE >72:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12542 text34 CODE >74:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12554 text34 CODE >75:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12564 text34 CODE >77:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12566 text34 CODE >78:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12568 text34 CODE >79:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FBC text33 CODE >460:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FBC text33 CODE >462:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FC0 text33 CODE >465:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FD2 text33 CODE >466:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FDA text33 CODE >468:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11FEC text33 CODE >470:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1200C text33 CODE >471:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1201A text33 CODE >472:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1201E text33 CODE >473:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12022 text33 CODE >474:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12026 text33 CODE >476:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12026 text33 CODE >478:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12028 text33 CODE >479:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121AA text32 CODE >434:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121AA text32 CODE >438:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121BE text32 CODE >439:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121C6 text32 CODE >442:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121D8 text32 CODE >444:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121DC text32 CODE >445:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121F2 text32 CODE >447:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121F6 text32 CODE >448:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121FA text32 CODE >450:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121FC text32 CODE >452:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+121FE text32 CODE >453:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12634 text31 CODE >481:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12634 text31 CODE >484:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12648 text31 CODE >485:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12652 text31 CODE >486:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12654 text31 CODE >487:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126D2 text30 CODE >494:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126D2 text30 CODE >497:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126E6 text30 CODE >498:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+126EC text30 CODE >499:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+117EE text29 CODE >7:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+117EE text29 CODE >13:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+117F2 text29 CODE >14:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11800 text29 CODE >15:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11808 text29 CODE >16:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1180C text29 CODE >18:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1181A text29 CODE >19:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11822 text29 CODE >20:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11826 text29 CODE >22:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1182E text29 CODE >23:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11840 text29 CODE >24:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11844 text29 CODE >25:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11848 text29 CODE >26:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1184E text29 CODE >27:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11850 text29 CODE >25:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1185E text29 CODE >30:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11864 text29 CODE >31:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1187A text29 CODE >32:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11882 text29 CODE >33:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11884 text29 CODE >35:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+1188A text29 CODE >36:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11890 text29 CODE >38:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+118A0 text29 CODE >39:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+118A8 text29 CODE >40:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+118B0 text29 CODE >41:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c
+11966 text28 CODE >7:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11966 text28 CODE >12:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+1196A text28 CODE >13:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11978 text28 CODE >14:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11980 text28 CODE >15:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11984 text28 CODE >17:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11992 text28 CODE >18:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+1199A text28 CODE >19:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119AC text28 CODE >20:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119B0 text28 CODE >21:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119B4 text28 CODE >22:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119BA text28 CODE >23:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119BC text28 CODE >21:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119CA text28 CODE >26:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119E0 text28 CODE >27:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119E8 text28 CODE >28:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119EE text28 CODE >29:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+119F4 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11A04 text28 CODE >32:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11A0C text28 CODE >33:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+11A14 text28 CODE >34:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c
+1233A text27 CODE >1:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c
+1233A text27 CODE >3:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c
+1236E text27 CODE >4:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c
+127D8 text26 CODE >7:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\putch.c
+127D8 text26 CODE >9:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\putch.c
+11404 text25 CODE >8:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+11404 text25 CODE >12:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+1142A text25 CODE >13:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+11430 text25 CODE >14:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+11434 text25 CODE >15:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+11488 text25 CODE >18:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+114BC text25 CODE >20:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+114CE text25 CODE >24:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c
+1224A text24 CODE >8:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+1224A text24 CODE >13:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+12254 text24 CODE >14:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+12258 text24 CODE >15:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+1226A text24 CODE >16:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+12270 text24 CODE >14:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+12290 text24 CODE >19:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c
+11AC2 text23 CODE >193:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11AC2 text23 CODE >199:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11AD2 text23 CODE >200:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11AE6 text23 CODE >205:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11AF6 text23 CODE >206:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11AFE text23 CODE >207:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11AFE text23 CODE >208:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B06 text23 CODE >209:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B0A text23 CODE >210:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B1E text23 CODE >211:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B24 text23 CODE >209:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B42 text23 CODE >216:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B50 text23 CODE >218:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11B64 text23 CODE >226:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A2E text22 CODE >513:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A2E text22 CODE >520:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A34 text22 CODE >524:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A48 text22 CODE >535:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A50 text22 CODE >536:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A60 text22 CODE >541:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A66 text22 CODE >542:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A8E text22 CODE >543:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A8E text22 CODE >552:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A96 text22 CODE >553:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A9A text22 CODE >554:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10A9E text22 CODE >564:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10AA4 text22 CODE >565:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10AD8 text22 CODE >569:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10ADA text22 CODE >571:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10AE0 text22 CODE >572:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10AFC text22 CODE >554:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10B62 text22 CODE >576:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10B72 text22 CODE >577:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10B78 text22 CODE >578:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10B88 text22 CODE >582:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BA8 text22 CODE >583:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11336 text21 CODE >1158:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11336 text21 CODE >1159:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11340 text21 CODE >1160:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11368 text21 CODE >1161:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11376 text21 CODE >1162:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1139E text21 CODE >1163:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+113A2 text21 CODE >1166:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+113C0 text21 CODE >1167:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+113CE text21 CODE >1165:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+113FA text21 CODE >1169:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+113FA text21 CODE >1170:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+11402 text21 CODE >1171:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BAA text20 CODE >942:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BAA text20 CODE >951:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BB2 text20 CODE >952:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BC6 text20 CODE >953:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BCE text20 CODE >957:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10BDA text20 CODE >959:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C1E text20 CODE >965:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C26 text20 CODE >969:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C2E text20 CODE >970:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C42 text20 CODE >972:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C56 text20 CODE >973:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C5C text20 CODE >971:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10C7E text20 CODE >980:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10CB6 text20 CODE >981:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10CBC text20 CODE >979:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10CD6 text20 CODE >986:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10CE8 text20 CODE >988:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10CFC text20 CODE >989:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10D02 text20 CODE >987:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10D20 text20 CODE >997:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F58 text19 CODE >1055:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F58 text19 CODE >1067:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F5E text19 CODE >1082:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F66 text19 CODE >1095:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F6E text19 CODE >1096:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F72 text19 CODE >1097:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F76 text19 CODE >1107:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F7C text19 CODE >1108:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F82 text19 CODE >1109:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F92 text19 CODE >1110:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F96 text19 CODE >1111:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F9A text19 CODE >1116:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10F9E text19 CODE >1121:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10FAE text19 CODE >1125:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10FB0 text19 CODE >1127:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10FB6 text19 CODE >1128:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10FD6 text19 CODE >1097:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1103E text19 CODE >1152:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1105E text19 CODE >1153:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10000 text18 CODE >1177:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10000 text18 CODE >1201:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10028 text18 CODE >1202:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10036 text18 CODE >1204:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10044 text18 CODE >1205:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10048 text18 CODE >1209:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1004A text18 CODE >1210:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1004E text18 CODE >1220:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10050 text18 CODE >1221:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1005E text18 CODE >1222:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10062 text18 CODE >1243:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10066 text18 CODE >1244:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1006A text18 CODE >1245:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10084 text18 CODE >1245:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1008E text18 CODE >1210:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1009E text18 CODE >1256:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+100BA text18 CODE >1257:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+100CA text18 CODE >1258:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+100CC text18 CODE >1259:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+100D4 text18 CODE >1291:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+100E4 text18 CODE >1361:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10124 text18 CODE >1404:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1014C text18 CODE >1406:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10168 text18 CODE >1432:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10180 text18 CODE >1439:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+101A0 text18 CODE >1495:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+101C8 text18 CODE >1497:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+101E4 text18 CODE >1498:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+101E8 text18 CODE >1586:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10200 text18 CODE >1589:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10212 text18 CODE >1589:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1021C text18 CODE >1590:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1021C text18 CODE >1656:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1021E text18 CODE >1657:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10246 text18 CODE >1658:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10254 text18 CODE >1659:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10258 text18 CODE >1660:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1025C text18 CODE >1661:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+102F4 text18 CODE >1662:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10308 text18 CODE >1665:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10318 text18 CODE >1682:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10350 text18 CODE >1806:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10362 text18 CODE >1811:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+10390 text18 CODE >1814:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+12154 text17 CODE >1817:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+12154 text17 CODE >1822:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1215C text17 CODE >1826:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+12160 text17 CODE >1830:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1217E text17 CODE >1826:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+1219E text17 CODE >1835:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+121A8 text17 CODE >1840:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c
+12596 text16 CODE >5:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\printf.c
+12596 text16 CODE >9:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\printf.c
+125A0 text16 CODE >10:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\printf.c
+125BC text16 CODE >13:C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\printf.c
+11A16 text15 CODE >407:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A16 text15 CODE >409:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A2C text15 CODE >410:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A30 text15 CODE >412:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A46 text15 CODE >414:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A52 text15 CODE >416:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A5C text15 CODE >417:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11A7E text15 CODE >418:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11AA0 text15 CODE >410:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11AB4 text15 CODE >420:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11AC0 text15 CODE >421:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12098 text14 CODE >423:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12098 text14 CODE >425:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120AE text14 CODE >426:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120B2 text14 CODE >428:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120C8 text14 CODE >429:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120DA text14 CODE >426:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120EE text14 CODE >431:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120FA text14 CODE >432:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11DD2 text13 CODE >401:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11DD6 text13 CODE >403:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11E54 text13 CODE >405:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1080C text12 CODE >374:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1080C text12 CODE >376:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1081A text12 CODE >378:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1082A text12 CODE >380:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10848 text12 CODE >381:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10866 text12 CODE >382:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10884 text12 CODE >384:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+108A2 text12 CODE >385:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+108C0 text12 CODE >386:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+108DE text12 CODE >387:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+108FC text12 CODE >388:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1091A text12 CODE >389:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10938 text12 CODE >390:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10956 text12 CODE >391:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10984 text12 CODE >392:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+109B2 text12 CODE >393:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+109E0 text12 CODE >394:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+109F0 text12 CODE >395:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10A18 text12 CODE >396:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10A2C text12 CODE >397:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+120FC text11 CODE >43:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+120FC text11 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12100 text11 CODE >46:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12108 text11 CODE >47:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12112 text11 CODE >44:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+1212E text11 CODE >52:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12136 text11 CODE >50:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12152 text11 CODE >54:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mcc_generated_files/timer/src/delay.c
+12200 text10 CODE >54:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12200 text10 CODE >55:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12202 text10 CODE >57:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1220A text10 CODE >58:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1221E text10 CODE >59:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12224 text10 CODE >60:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12230 text10 CODE >61:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12246 text10 CODE >62:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12248 text10 CODE >63:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12304 text9 CODE >218:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12308 text9 CODE >220:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1231A text9 CODE >221:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1231C text9 CODE >222:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12326 text9 CODE >223:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12336 text9 CODE >224:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12338 text9 CODE >226:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11B66 text8 CODE >102:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11B66 text8 CODE >104:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11B70 text8 CODE >105:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11B82 text8 CODE >107:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11B96 text8 CODE >108:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11BA0 text8 CODE >109:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11BDC text8 CODE >110:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11BFC text8 CODE >111:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11C04 text8 CODE >112:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+124DC text7 CODE >364:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+124DC text7 CODE >367:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+124F0 text7 CODE >368:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+124F8 text7 CODE >369:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+12500 text7 CODE >370:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1250A text7 CODE >371:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+118B2 text6 CODE >115:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+118B2 text6 CODE >117:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+118BC text6 CODE >118:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+118CE text6 CODE >119:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+118E2 text6 CODE >121:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+118F6 text6 CODE >122:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11900 text6 CODE >123:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1193C text6 CODE >124:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+1195C text6 CODE >125:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+11964 text6 CODE >126:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\mirf.c
+10D22 text5 CODE >26:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D22 text5 CODE >27:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D30 text5 CODE >29:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D3E text5 CODE >30:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D54 text5 CODE >33:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D72 text5 CODE >34:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D86 text5 CODE >35:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10D98 text5 CODE >37:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10DB4 text5 CODE >38:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10DC8 text5 CODE >39:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10DDA text5 CODE >42:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10DEA text5 CODE >43:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10DFC text5 CODE >46:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10E0A text5 CODE >49:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10E2C text5 CODE >50:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10E46 text5 CODE >52:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10392 text4 CODE >65:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10396 text4 CODE >66:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+103DE text4 CODE >67:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10426 text4 CODE >68:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1046E text4 CODE >69:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+104B6 text4 CODE >70:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+104FE text4 CODE >71:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10546 text4 CODE >72:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1058E text4 CODE >73:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+105D6 text4 CODE >74:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+12696 text3 CODE >76:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1269A text3 CODE >77:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+126A2 text3 CODE >78:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+126AA text3 CODE >79:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+126B2 text3 CODE >80:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11ED8 text2 CODE >82:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11EDC text2 CODE >83:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11EDC text2 CODE >84:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11EE0 text2 CODE >86:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11EEE text2 CODE >87:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11EF2 text2 CODE >89:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F00 text2 CODE >90:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F04 text2 CODE >92:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F12 text2 CODE >93:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F16 text2 CODE >95:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F24 text2 CODE >96:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F28 text2 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F2E text2 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F36 text2 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F3E text2 CODE >97:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11F48 text2 CODE >98:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11060 text1 CODE >100:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11060 text1 CODE >101:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1106A text1 CODE >104:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11078 text1 CODE >105:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11086 text1 CODE >106:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11092 text1 CODE >107:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+110C0 text1 CODE >108:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+110CE text1 CODE >109:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+110FC text1 CODE >111:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+1110E text1 CODE >112:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11132 text1 CODE >113:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11162 text1 CODE >114:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CA6 text0 CODE >137:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CA6 text0 CODE >139:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CAA text0 CODE >141:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CAC text0 CODE >142:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CB0 text0 CODE >143:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CB2 text0 CODE >144:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CC4 text0 CODE >146:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CC8 text0 CODE >149:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CD4 text0 CODE >150:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11CEC text0 CODE >151:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11D04 text0 CODE >152:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11D1C text0 CODE >153:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11D2A text0 CODE >155:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11D3C text0 CODE >156:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+11D3C text0 CODE >160:C:\Users\Admin\OneDrive\Coding\EE3 PC-wifi-ESP-nrf-pic-led\WORKS\backup pic\pic_mirf.X\main.c
+10E48 cinit CODE >17219:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E48 cinit CODE >17221:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E48 cinit CODE >17224:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E48 cinit CODE >17314:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E4A cinit CODE >17315:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E4C cinit CODE >17316:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E4E cinit CODE >17317:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E50 cinit CODE >17318:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E52 cinit CODE >17319:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E54 cinit CODE >17320:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E58 cinit CODE >17321:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E5C cinit CODE >17322:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E5C cinit CODE >17323:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E5E cinit CODE >17324:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E62 cinit CODE >17325:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E64 cinit CODE >17326:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E66 cinit CODE >17327:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E68 cinit CODE >17331:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E6A cinit CODE >17332:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E6C cinit CODE >17333:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E6E cinit CODE >17334:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E70 cinit CODE >17335:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E72 cinit CODE >17336:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E74 cinit CODE >17337:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E78 cinit CODE >17338:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E7C cinit CODE >17339:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E7C cinit CODE >17340:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E7E cinit CODE >17341:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E82 cinit CODE >17342:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E84 cinit CODE >17343:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E86 cinit CODE >17344:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E88 cinit CODE >17348:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E8A cinit CODE >17349:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E8C cinit CODE >17350:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E8E cinit CODE >17351:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E90 cinit CODE >17352:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E92 cinit CODE >17353:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E94 cinit CODE >17354:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E98 cinit CODE >17355:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E9C cinit CODE >17356:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E9C cinit CODE >17357:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10E9E cinit CODE >17358:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EA2 cinit CODE >17359:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EA4 cinit CODE >17360:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EA6 cinit CODE >17361:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EA8 cinit CODE >17365:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EAA cinit CODE >17366:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EAC cinit CODE >17367:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EAE cinit CODE >17368:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EB0 cinit CODE >17369:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EB2 cinit CODE >17370:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EB4 cinit CODE >17371:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EB8 cinit CODE >17372:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EBC cinit CODE >17373:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EBC cinit CODE >17374:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EBE cinit CODE >17375:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EC2 cinit CODE >17376:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EC4 cinit CODE >17377:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EC6 cinit CODE >17378:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EC8 cinit CODE >17382:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ECA cinit CODE >17383:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ECC cinit CODE >17384:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ECE cinit CODE >17385:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ED0 cinit CODE >17386:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ED2 cinit CODE >17387:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ED4 cinit CODE >17388:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10ED8 cinit CODE >17389:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EDC cinit CODE >17390:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EDC cinit CODE >17391:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EDE cinit CODE >17392:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EE2 cinit CODE >17393:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EE4 cinit CODE >17394:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EE6 cinit CODE >17395:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EE8 cinit CODE >17399:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EEA cinit CODE >17400:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EEC cinit CODE >17401:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EEE cinit CODE >17402:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EF0 cinit CODE >17403:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EF2 cinit CODE >17404:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EF4 cinit CODE >17405:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EF8 cinit CODE >17406:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EFC cinit CODE >17407:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EFC cinit CODE >17408:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10EFE cinit CODE >17409:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F02 cinit CODE >17410:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F04 cinit CODE >17411:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F06 cinit CODE >17412:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F08 cinit CODE >17416:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F0C cinit CODE >17417:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F0E cinit CODE >17418:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F0E cinit CODE >17419:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F10 cinit CODE >17420:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F12 cinit CODE >17421:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F14 cinit CODE >17424:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F18 cinit CODE >17425:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F1A cinit CODE >17426:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F1A cinit CODE >17427:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F1C cinit CODE >17428:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F1E cinit CODE >17429:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F20 cinit CODE >17432:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F24 cinit CODE >17433:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F26 cinit CODE >17434:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F26 cinit CODE >17435:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F28 cinit CODE >17436:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F2A cinit CODE >17437:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F2C cinit CODE >17440:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F2E cinit CODE >17441:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F30 cinit CODE >17442:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F32 cinit CODE >17443:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F34 cinit CODE >17444:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F36 cinit CODE >17445:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F38 cinit CODE >17448:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F3C cinit CODE >17449:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F3E cinit CODE >17450:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F3E cinit CODE >17451:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F40 cinit CODE >17452:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F42 cinit CODE >17453:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F44 cinit CODE >17461:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F46 cinit CODE >17462:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F48 cinit CODE >17463:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F4A cinit CODE >17464:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F4C cinit CODE >17465:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F4E cinit CODE >17466:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F50 cinit CODE >17467:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F52 cinit CODE >17473:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F52 cinit CODE >17475:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+10F54 cinit CODE >17476:C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_SPI1SCKPPS 26A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1SDIPPS 26B 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+___awdiv@counter 564 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LdataBANK6 0 0 ABS 0 dataBANK6 dist/default/debug\pic_mirf.X.debug.o
+__LdataBANK8 0 0 ABS 0 dataBANK8 dist/default/debug\pic_mirf.X.debug.o
+__LdataBANK9 0 0 ABS 0 dataBANK9 dist/default/debug\pic_mirf.X.debug.o
+__Lmediumconst FE52 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+i2sendGrid@grid 506 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__Hspace_0 127DC 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Hspace_1 EC8 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Hspace_2 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Hspace_4 60000A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_init@dev 561 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRetransmitDelay@value 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__HidataBANK6 0 0 ABS 0 idataBANK6 dist/default/debug\pic_mirf.X.debug.o
+__HidataBANK8 0 0 ABS 0 idataBANK8 dist/default/debug\pic_mirf.X.debug.o
+__HidataBANK9 0 0 ABS 0 idataBANK9 dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_configRegister@reg 504 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\pic_mirf.X.debug.o
+__mediumconst FE52 0 MEDIUMCONST 0 mediumconst C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+_Nrf24_config 11E56 0 CODE 0 text38 dist/default/debug\pic_mirf.X.debug.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\pic_mirf.X.debug.o
+__end_of_INTERRUPT_Initialize 123DC 0 CODE 0 text51 dist/default/debug\pic_mirf.X.debug.o
+SPI1_ByteExchange@returnValue 561 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\pic_mirf.X.debug.o
+?_abs 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_config@channel 56F 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_readRegister@len 568 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_readRegister@reg 569 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+?_vfprintf 595 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\pic_mirf.X.debug.o
+_LATA 4BE 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_LATB 4BF 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_LATC 4C0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_LATD 4C1 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_LATE 4C2 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_LATF 4C3 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_WPUA 401 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_WPUB 409 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_WPUC 411 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_WPUD 419 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_WPUE 421 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_WPUF 429 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+___sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+_dbuf 7C8 0 BANK7 1 bssBANK7 dist/default/debug\pic_mirf.X.debug.o
+_dtoa 10A2E 0 CODE 0 text22 dist/default/debug\pic_mirf.X.debug.o
+_main 11CA6 0 CODE 0 text0 dist/default/debug\pic_mirf.X.debug.o
+_prec 5E8 0 BANK5 1 bssBANK5 dist/default/debug\pic_mirf.X.debug.o
+_stoa 10BAA 0 CODE 0 text20 dist/default/debug\pic_mirf.X.debug.o
+_xtoa 10F58 0 CODE 0 text19 dist/default/debug\pic_mirf.X.debug.o
+abs@a 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+___stack_hi 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+___stack_lo 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+read_prec_or_width@c 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+read_prec_or_width@n 567 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_SPI_read_buff 12304 0 CODE 0 text44 dist/default/debug\pic_mirf.X.debug.o
+__HbssBANK10 0 0 ABS 0 bssBANK10 dist/default/debug\pic_mirf.X.debug.o
+__HbssBANK14 0 0 ABS 0 bssBANK14 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_configRegister 126B4 0 CODE 0 text45 dist/default/debug\pic_mirf.X.debug.o
+pad@i 577 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+pad@p 574 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+start 1A 0 CODE 0 init C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+i2Nrf24_readRegister@len 509 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_readRegister@reg 50A 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_of_SPI1_Initialize 12738 0 CODE 0 text49 dist/default/debug\pic_mirf.X.debug.o
+INT2_SetInterruptHandler@InterruptHandler 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+pad@fp 570 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_TMR0_OverflowCallback 537 0 COMRAM 1 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_INT2_SetInterruptHandler 127A2 0 CODE 0 text52 dist/default/debug\pic_mirf.X.debug.o
+sendGrid@gridSize 570 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_getCRCLength 1202A 0 CODE 0 text33 dist/default/debug\pic_mirf.X.debug.o
+__LidataBANK6 0 0 ABS 0 idataBANK6 dist/default/debug\pic_mirf.X.debug.o
+__LidataBANK8 0 0 ABS 0 idataBANK8 dist/default/debug\pic_mirf.X.debug.o
+__LidataBANK9 0 0 ABS 0 idataBANK9 dist/default/debug\pic_mirf.X.debug.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/debug\pic_mirf.X.debug.o
+__end_of_spi1_configuration FE99 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+i2SPI_read_buff@buffer 503 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__HdataBANK11 0 0 ABS 0 dataBANK11 dist/default/debug\pic_mirf.X.debug.o
+__HdataBANK12 0 0 ABS 0 dataBANK12 dist/default/debug\pic_mirf.X.debug.o
+__HdataBANK13 0 0 ABS 0 dataBANK13 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_Close 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+stoa@l 575 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+stoa@p 56F 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+stoa@s 56B 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+stoa@w 571 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getCRCLength@config 56E 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRetransmitDelay@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRetransmitDelay@val 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_TMR0_Stop 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_vfpfcnvrt 10392 0 CODE 0 text18 dist/default/debug\pic_mirf.X.debug.o
+___awmod@sign 565 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_configRegister@reg 563 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Timer0 FE8F 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+__LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_SPI1_nrf24 FE53 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+__LbssBANK10 0 0 ABS 0 bssBANK10 dist/default/debug\pic_mirf.X.debug.o
+__LbssBANK14 0 0 ABS 0 bssBANK14 dist/default/debug\pic_mirf.X.debug.o
+__accesstop 560 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+intlevel0 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+intlevel1 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+intlevel2 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+intlevel3 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+_SPI_write_buff 12200 0 CODE 0 text10 dist/default/debug\pic_mirf.X.debug.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_print_status 11E56 0 CODE 0 text13 dist/default/debug\pic_mirf.X.debug.o
+_init_nrf 10D22 0 CODE 0 text5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_printDetails@retransmit 5C3 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\pic_mirf.X.debug.o
+SPI_write_buff@bytes 564 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_setRetransmitDelay 124DC 0 CODE 0 text7 dist/default/debug\pic_mirf.X.debug.o
+__end_of_TMR0_OverflowISR 124DC 0 CODE 0 text69 dist/default/debug\pic_mirf.X.debug.o
+i2SPI1_ByteExchange@byteData 501 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+xtoa@c 583 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+xtoa@d 57B 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+xtoa@i 584 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+xtoa@p 580 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+xtoa@w 581 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\pic_mirf.X.debug.o
+__pidataBANK11 114D0 0 CODE 0 idataBANK11 dist/default/debug\pic_mirf.X.debug.o
+__pidataBANK12 11598 0 CODE 0 idataBANK12 dist/default/debug\pic_mirf.X.debug.o
+__pidataBANK13 11660 0 CODE 0 idataBANK13 dist/default/debug\pic_mirf.X.debug.o
+i2sendCell@cell 505 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+i2_sendByte 105D8 0 CODE 0 text61 dist/default/debug\pic_mirf.X.debug.o
+i2_sendCell 1202A 0 CODE 0 text59 dist/default/debug\pic_mirf.X.debug.o
+i2_sendGrid 11164 0 CODE 0 text58 dist/default/debug\pic_mirf.X.debug.o
+_rf24_datarates 6E8 0 BANK6 1 dataBANK6 dist/default/debug\pic_mirf.X.debug.o
+___awdiv@sign 565 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\pic_mirf.X.debug.o
+__end_of_init_nrf 10E48 0 CODE 0 text5 dist/default/debug\pic_mirf.X.debug.o
+_vfpfcnvrt 10000 0 CODE 0 text18 dist/default/debug\pic_mirf.X.debug.o
+dtoa@fp 579 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_INT1_SetInterruptHandler 127BE 0 CODE 0 text53 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_init 1253C 0 CODE 0 text34 dist/default/debug\pic_mirf.X.debug.o
+ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_getCRCLength 11FBC 0 CODE 0 text33 dist/default/debug\pic_mirf.X.debug.o
+xtoa@fp 579 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI1CON0bits 84 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1_Initialize 12720 0 CODE 0 text49 dist/default/debug\pic_mirf.X.debug.o
+_ACTCON AC 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_config 11ED8 0 CODE 0 text38 dist/default/debug\pic_mirf.X.debug.o
+_spi1_configuration FE8F 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+__LdataBANK11 0 0 ABS 0 dataBANK11 dist/default/debug\pic_mirf.X.debug.o
+__LdataBANK12 0 0 ABS 0 dataBANK12 dist/default/debug\pic_mirf.X.debug.o
+__LdataBANK13 0 0 ABS 0 dataBANK13 dist/default/debug\pic_mirf.X.debug.o
+i2_SPI1_ByteExchange 1256A 0 CODE 0 text68 dist/default/debug\pic_mirf.X.debug.o
+_ANSELA 400 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ANSELB 408 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ANSELC 410 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ANSELD 418 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ANSELE 420 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ANSELF 428 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_writeRegister@len 568 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_writeRegister@reg 569 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+___awdiv@dividend 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_powerUpRx 1260E 0 CODE 0 text39 dist/default/debug\pic_mirf.X.debug.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+_Nrf24_getData 12370 0 CODE 0 text36 dist/default/debug\pic_mirf.X.debug.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+i2SPI1_ByteExchange@returnValue 502 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_of_INTERRUPT_InterruptManager 11DD2 0 CODE 0 text56 dist/default/debug\pic_mirf.X.debug.o
+_TMR0_DefaultOverflowCallback 127DA 0 CODE 0 text70 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_byte_register@buffer 5B3 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_print_status 11DD2 0 CODE 0 text13 dist/default/debug\pic_mirf.X.debug.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\pic_mirf.X.debug.o
+main@buf 6C8 0 BANK6 1 cstackBANK6 dist/default/debug\pic_mirf.X.debug.o
+i2SPI_read_buff@i 506 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_getPALevel 12634 0 CODE 0 text31 dist/default/debug\pic_mirf.X.debug.o
+__Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_flushRx 127D8 0 CODE 0 text41 dist/default/debug\pic_mirf.X.debug.o
+?_printf 59D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getCRCLength@result 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+___awdiv@divisor 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_SPI_write_buff 1224A 0 CODE 0 text10 dist/default/debug\pic_mirf.X.debug.o
+__end_of___awdiv 118B2 0 CODE 0 text29 dist/default/debug\pic_mirf.X.debug.o
+__end_of___awmod 11A16 0 CODE 0 text28 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_BufferRead 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_SPI1_nrf24 FE7D 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_SPI_read_buff 12478 0 CODE 0 text67 dist/default/debug\pic_mirf.X.debug.o
+_RC6_InterruptHandler 548 0 COMRAM 1 nvCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_SPI1STATUSbits 87 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INLVLA 404 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INLVLB 40C 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INLVLC 414 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INLVLD 41C 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INLVLE 424 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INLVLF 42C 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+i2sendGrid@index 50B 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_address_register@i 5B9 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LidataBANK11 0 0 ABS 0 idataBANK11 dist/default/debug\pic_mirf.X.debug.o
+__LidataBANK12 0 0 ABS 0 idataBANK12 dist/default/debug\pic_mirf.X.debug.o
+__LidataBANK13 0 0 ABS 0 idataBANK13 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setTADDR@adr 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setTADDR@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setTADDR@ret 576 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+sendGrid@grid 565 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_print_address_register 11A16 0 CODE 0 text15 dist/default/debug\pic_mirf.X.debug.o
+DELAY_milliseconds@milliseconds 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_configRegister@value 503 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_sendByte 1080C 0 CODE 0 text61 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_sendCell 12098 0 CODE 0 text59 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_sendGrid 11262 0 CODE 0 text58 dist/default/debug\pic_mirf.X.debug.o
+__HnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_SPI1_BufferExchange 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_INTCON0bits 4D6 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_dataReady@dev 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_IsRxReady 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIN_MANAGER_Initialize 11C06 0 CODE 0 text50 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_init 1256A 0 CODE 0 text34 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getRetransmitDelay@value 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+start_initialization 10E48 0 CODE 0 cinit dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_powerUpRx 125E6 0 CODE 0 text39 dist/default/debug\pic_mirf.X.debug.o
+_ODCONA 402 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ODCONB 40A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ODCONC 412 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ODCOND 41A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ODCONE 422 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_ODCONF 42A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+SPI_read_buff@bytes 564 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_OSCFRQ B1 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getDataRate@result 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_getStatus@rv 50D 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_of_sendRGB 126B4 0 CODE 0 text3 dist/default/debug\pic_mirf.X.debug.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\pic_mirf.X.debug.o
+_TRISCbits 4C8 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_Nrf24_readRegister 1253C 0 CODE 0 text66 dist/default/debug\pic_mirf.X.debug.o
+___rparam_used 1 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RB1I2C 289 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RB2I2C 288 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RC3I2C 287 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RC3PPS 214 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RC4I2C 286 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RC4PPS 215 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getCRCLength@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_SYSTEM_Initialize 127A2 0 CODE 0 text48 dist/default/debug\pic_mirf.X.debug.o
+SPI_write_buff@i 565 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__pcstackBANK5 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__pcstackBANK6 600 0 BANK6 1 cstackBANK6 dist/default/debug\pic_mirf.X.debug.o
+__pcstackBANK7 700 0 BANK7 1 cstackBANK7 dist/default/debug\pic_mirf.X.debug.o
+__pcstackBANK8 800 0 BANK8 1 cstackBANK8 dist/default/debug\pic_mirf.X.debug.o
+__pcstackBANK9 900 0 BANK9 1 cstackBANK9 dist/default/debug\pic_mirf.X.debug.o
+_T0CON0 31A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_T0CON1 31B 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_RC6_SetInterruptHandler 127BE 0 CODE 0 text55 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_address_register@name 5AF 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_INT2_DefaultInterruptHandler 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+i2_SPI_read_buff 12444 0 CODE 0 text67 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRADDR@adr 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRADDR@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRADDR@ret 576 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Timer0 FE7D 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_getData@dev 507 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_byte_register@dev 5AD 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_byte_register@qty 5B2 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_byte_register@reg 5B1 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_printf 125BE 0 CODE 0 text16 dist/default/debug\pic_mirf.X.debug.o
+__end_of_RC6_SetInterruptHandler 127CC 0 CODE 0 text55 dist/default/debug\pic_mirf.X.debug.o
+isa$xinst 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+_rf24_crclength FE99 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getDataRate@dr 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_readRegister 12410 0 CODE 0 text43 dist/default/debug\pic_mirf.X.debug.o
+fputc@fp 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+fputs@fp 56B 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_SPI1_ByteExchange 12596 0 CODE 0 text68 dist/default/debug\pic_mirf.X.debug.o
+i2_Nrf24_configRegister 12738 0 CODE 0 text63 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRADDR@buffer 571 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_getRetransmitDelay 126EE 0 CODE 0 text30 dist/default/debug\pic_mirf.X.debug.o
+vfpfcnvrt@done 592 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_BufferWrite 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\pic_mirf.X.debug.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\pic_mirf.X.debug.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\pic_mirf.X.debug.o
+__Hbank8 0 0 ABS 0 bank8 dist/default/debug\pic_mirf.X.debug.o
+__Hbank9 0 0 ABS 0 bank9 dist/default/debug\pic_mirf.X.debug.o
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\pic_mirf.X.debug.o
+__Hconst 0 0 CONST 0 const dist/default/debug\pic_mirf.X.debug.o
+__Hidata 0 0 CODE 0 idata dist/default/debug\pic_mirf.X.debug.o
+__Hidloc 200040 0 IDLOC 5 idloc dist/default/debug\pic_mirf.X.debug.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\pic_mirf.X.debug.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setTADDR@i 578 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\pic_mirf.X.debug.o
+__Hstack 0 0 STACK 2 stack dist/default/debug\pic_mirf.X.debug.o
+__Htext0 0 0 ABS 0 text0 dist/default/debug\pic_mirf.X.debug.o
+__Htext1 0 0 ABS 0 text1 dist/default/debug\pic_mirf.X.debug.o
+__Htext2 0 0 ABS 0 text2 dist/default/debug\pic_mirf.X.debug.o
+__Htext3 0 0 ABS 0 text3 dist/default/debug\pic_mirf.X.debug.o
+__Htext4 0 0 ABS 0 text4 dist/default/debug\pic_mirf.X.debug.o
+__Htext5 0 0 ABS 0 text5 dist/default/debug\pic_mirf.X.debug.o
+__Htext6 0 0 ABS 0 text6 dist/default/debug\pic_mirf.X.debug.o
+__Htext7 0 0 ABS 0 text7 dist/default/debug\pic_mirf.X.debug.o
+__Htext8 0 0 ABS 0 text8 dist/default/debug\pic_mirf.X.debug.o
+__Htext9 0 0 ABS 0 text9 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_getPALevel 12656 0 CODE 0 text31 dist/default/debug\pic_mirf.X.debug.o
+__Hbank10 0 0 ABS 0 bank10 dist/default/debug\pic_mirf.X.debug.o
+__Hbank11 0 0 ABS 0 bank11 dist/default/debug\pic_mirf.X.debug.o
+__Hbank12 0 0 ABS 0 bank12 dist/default/debug\pic_mirf.X.debug.o
+__Hbank13 0 0 ABS 0 bank13 dist/default/debug\pic_mirf.X.debug.o
+__Hbank14 0 0 ABS 0 bank14 dist/default/debug\pic_mirf.X.debug.o
+__Hbank15 0 0 ABS 0 bank15 dist/default/debug\pic_mirf.X.debug.o
+__Hbank16 0 0 ABS 0 bank16 dist/default/debug\pic_mirf.X.debug.o
+__Hbank17 0 0 ABS 0 bank17 dist/default/debug\pic_mirf.X.debug.o
+__Hbank18 0 0 ABS 0 bank18 dist/default/debug\pic_mirf.X.debug.o
+__Hbank19 0 0 ABS 0 bank19 dist/default/debug\pic_mirf.X.debug.o
+__Hbank20 0 0 ABS 0 bank20 dist/default/debug\pic_mirf.X.debug.o
+__Hbank21 0 0 ABS 0 bank21 dist/default/debug\pic_mirf.X.debug.o
+__Hbank22 0 0 ABS 0 bank22 dist/default/debug\pic_mirf.X.debug.o
+__Hbank23 0 0 ABS 0 bank23 dist/default/debug\pic_mirf.X.debug.o
+__Hbank24 0 0 ABS 0 bank24 dist/default/debug\pic_mirf.X.debug.o
+__Hbank25 0 0 ABS 0 bank25 dist/default/debug\pic_mirf.X.debug.o
+__Hbank26 0 0 ABS 0 bank26 dist/default/debug\pic_mirf.X.debug.o
+__Hbank27 0 0 ABS 0 bank27 dist/default/debug\pic_mirf.X.debug.o
+__Hbank28 0 0 ABS 0 bank28 dist/default/debug\pic_mirf.X.debug.o
+__Hbank29 0 0 ABS 0 bank29 dist/default/debug\pic_mirf.X.debug.o
+__Hbank30 0 0 ABS 0 bank30 dist/default/debug\pic_mirf.X.debug.o
+__Hbank31 0 0 ABS 0 bank31 dist/default/debug\pic_mirf.X.debug.o
+__Hbank32 0 0 ABS 0 bank32 dist/default/debug\pic_mirf.X.debug.o
+__Hbank33 0 0 ABS 0 bank33 dist/default/debug\pic_mirf.X.debug.o
+__Hbank34 0 0 ABS 0 bank34 dist/default/debug\pic_mirf.X.debug.o
+__Hbank35 0 0 ABS 0 bank35 dist/default/debug\pic_mirf.X.debug.o
+__Hbank36 0 0 ABS 0 bank36 dist/default/debug\pic_mirf.X.debug.o
+?_read_prec_or_width 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\pic_mirf.X.debug.o
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\pic_mirf.X.debug.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/debug\pic_mirf.X.debug.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+main@F17918 B00 0 BANK11 1 dataBANK11 dist/default/debug\pic_mirf.X.debug.o
+main@F17920 C00 0 BANK12 1 dataBANK12 dist/default/debug\pic_mirf.X.debug.o
+main@F17922 D00 0 BANK13 1 dataBANK13 dist/default/debug\pic_mirf.X.debug.o
+main@F17924 8C8 0 BANK8 1 dataBANK8 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getStatus@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hcomram 0 0 ABS 0 comram dist/default/debug\pic_mirf.X.debug.o
+__Hconfig 30000A 0 CONFIG 4 config dist/default/debug\pic_mirf.X.debug.o
+_TMR0_Reload 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\pic_mirf.X.debug.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\pic_mirf.X.debug.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\pic_mirf.X.debug.o
+__Lbank8 0 0 ABS 0 bank8 dist/default/debug\pic_mirf.X.debug.o
+__Lbank9 0 0 ABS 0 bank9 dist/default/debug\pic_mirf.X.debug.o
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\pic_mirf.X.debug.o
+__Lconst 0 0 CONST 0 const dist/default/debug\pic_mirf.X.debug.o
+__Lidata 0 0 CODE 0 idata dist/default/debug\pic_mirf.X.debug.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/debug\pic_mirf.X.debug.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\pic_mirf.X.debug.o
+INT1_SetInterruptHandler@InterruptHandler 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\pic_mirf.X.debug.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\pic_mirf.X.debug.o
+__Lstack 0 0 STACK 2 stack dist/default/debug\pic_mirf.X.debug.o
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\pic_mirf.X.debug.o
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\pic_mirf.X.debug.o
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\pic_mirf.X.debug.o
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\pic_mirf.X.debug.o
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\pic_mirf.X.debug.o
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\pic_mirf.X.debug.o
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\pic_mirf.X.debug.o
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\pic_mirf.X.debug.o
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\pic_mirf.X.debug.o
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\pic_mirf.X.debug.o
+sendCell@cell 564 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\pic_mirf.X.debug.o
+__end_of_SPI1_ByteExchange 122CC 0 CODE 0 text46 dist/default/debug\pic_mirf.X.debug.o
+_INTERRUPT_Initialize 123A6 0 CODE 0 text51 dist/default/debug\pic_mirf.X.debug.o
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\pic_mirf.X.debug.o
+__Hdata 0 0 ABS 0 data dist/default/debug\pic_mirf.X.debug.o
+__Hheap 0 0 HEAP 7 heap dist/default/debug\pic_mirf.X.debug.o
+__Hinit 1E 0 CODE 0 init dist/default/debug\pic_mirf.X.debug.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\pic_mirf.X.debug.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\pic_mirf.X.debug.o
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\pic_mirf.X.debug.o
+__Htext 0 0 ABS 0 text dist/default/debug\pic_mirf.X.debug.o
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\pic_mirf.X.debug.o
+__Ldata 0 0 ABS 0 data dist/default/debug\pic_mirf.X.debug.o
+__Lheap 0 0 HEAP 7 heap dist/default/debug\pic_mirf.X.debug.o
+__Linit 1A 0 CODE 0 init dist/default/debug\pic_mirf.X.debug.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\pic_mirf.X.debug.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\pic_mirf.X.debug.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\pic_mirf.X.debug.o
+__Ltext 0 0 ABS 0 text dist/default/debug\pic_mirf.X.debug.o
+Nrf24_powerUpRx@dev 564 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_readRegister 123DC 0 CODE 0 text43 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_status@status 5AE 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LcstackBANK6 0 0 ABS 0 cstackBANK6 dist/default/debug\pic_mirf.X.debug.o
+__LcstackBANK7 0 0 ABS 0 cstackBANK7 dist/default/debug\pic_mirf.X.debug.o
+__LcstackBANK8 0 0 ABS 0 cstackBANK8 dist/default/debug\pic_mirf.X.debug.o
+__LcstackBANK9 0 0 ABS 0 cstackBANK9 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_ByteRead 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_getData 123A6 0 CODE 0 text36 dist/default/debug\pic_mirf.X.debug.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getPALevel@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI1INTFbits 8A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+i2sendGrid@col 50D 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+i2sendGrid@row 50F 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\pic_mirf.X.debug.o
+__S0 127DC 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__S1 EC8 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__S4 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__S5 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_abs 1233A 0 CODE 0 text27 dist/default/debug\pic_mirf.X.debug.o
+_dev 53F 0 COMRAM 1 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_pad 11AC2 0 CODE 0 text23 dist/default/debug\pic_mirf.X.debug.o
+__Hivt0x8 1A 0 CODE 0 ivt0x8 dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_getData@data 509 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_CLOCK_Initialize 1277C 0 CODE 0 text54 dist/default/debug\pic_mirf.X.debug.o
+sendRGB@b 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+sendRGB@g 561 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+sendRGB@r 563 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_INT2_SetInterruptHandler 127B0 0 CODE 0 text52 dist/default/debug\pic_mirf.X.debug.o
+IVTBASEH 45E 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+IVTBASEL 45D 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+IVTBASEU 45F 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__pnvCOMRAM 542 0 COMRAM 1 nvCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_of_rf24_crclength FEB7 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+_SPI1BAUD 89 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1CON0 84 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1CON1 85 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1CON2 86 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_SetSpeedDataRates@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_SetSpeedDataRates@val 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+i2sendByte@byte 501 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_address_register@buffer 5B4 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__HidataBANK11 0 0 ABS 0 idataBANK11 dist/default/debug\pic_mirf.X.debug.o
+__HidataBANK12 0 0 ABS 0 idataBANK12 dist/default/debug\pic_mirf.X.debug.o
+__HidataBANK13 0 0 ABS 0 idataBANK13 dist/default/debug\pic_mirf.X.debug.o
+SPI1_Open@spiConfigIndex 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__pivt0x8 8 0 CODE 0 ivt0x8 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_byte_register@name 5AF 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_DELAY_milliseconds 12444 0 CODE 0 text47 dist/default/debug\pic_mirf.X.debug.o
+__end_of_TMR0_DefaultOverflowCallback 127DC 0 CODE 0 text70 dist/default/debug\pic_mirf.X.debug.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\pic_mirf.X.debug.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\pic_mirf.X.debug.o
+_SYSTEM_Initialize 12790 0 CODE 0 text48 dist/default/debug\pic_mirf.X.debug.o
+_dtoa$2107 57D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_SetSpeedDataRates@value 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_writeRegister@value 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_abs 12370 0 CODE 0 text27 dist/default/debug\pic_mirf.X.debug.o
+__end_of_pad 11B66 0 CODE 0 text23 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_writeRegister 12304 0 CODE 0 text9 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_setRetransmitDelay 1250C 0 CODE 0 text7 dist/default/debug\pic_mirf.X.debug.o
+__Hramtop 2600 0 RAM 0 ramtop dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_print_byte_register 120FC 0 CODE 0 text14 dist/default/debug\pic_mirf.X.debug.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\pic_mirf.X.debug.o
+__pdataBANK6 6E8 0 BANK6 1 dataBANK6 dist/default/debug\pic_mirf.X.debug.o
+__pdataBANK8 8C8 0 BANK8 1 dataBANK8 dist/default/debug\pic_mirf.X.debug.o
+__pdataBANK9 9C8 0 BANK9 1 dataBANK9 dist/default/debug\pic_mirf.X.debug.o
+__activetblptr 3 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\pic_mirf.X.debug.o
+__LbssBANK5 0 0 ABS 0 bssBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LbssBANK7 0 0 ABS 0 bssBANK7 dist/default/debug\pic_mirf.X.debug.o
+__Htext10 0 0 ABS 0 text10 dist/default/debug\pic_mirf.X.debug.o
+__Htext11 0 0 ABS 0 text11 dist/default/debug\pic_mirf.X.debug.o
+__Htext12 0 0 ABS 0 text12 dist/default/debug\pic_mirf.X.debug.o
+__Htext13 0 0 ABS 0 text13 dist/default/debug\pic_mirf.X.debug.o
+__Htext14 0 0 ABS 0 text14 dist/default/debug\pic_mirf.X.debug.o
+__Htext15 0 0 ABS 0 text15 dist/default/debug\pic_mirf.X.debug.o
+__Htext16 0 0 ABS 0 text16 dist/default/debug\pic_mirf.X.debug.o
+__Htext17 0 0 ABS 0 text17 dist/default/debug\pic_mirf.X.debug.o
+__Htext18 0 0 ABS 0 text18 dist/default/debug\pic_mirf.X.debug.o
+__Htext19 0 0 ABS 0 text19 dist/default/debug\pic_mirf.X.debug.o
+__Htext20 0 0 ABS 0 text20 dist/default/debug\pic_mirf.X.debug.o
+__Htext21 0 0 ABS 0 text21 dist/default/debug\pic_mirf.X.debug.o
+__Htext22 0 0 ABS 0 text22 dist/default/debug\pic_mirf.X.debug.o
+__Htext23 0 0 ABS 0 text23 dist/default/debug\pic_mirf.X.debug.o
+__Htext24 0 0 ABS 0 text24 dist/default/debug\pic_mirf.X.debug.o
+__Htext25 0 0 ABS 0 text25 dist/default/debug\pic_mirf.X.debug.o
+__Htext26 0 0 ABS 0 text26 dist/default/debug\pic_mirf.X.debug.o
+__Htext27 0 0 ABS 0 text27 dist/default/debug\pic_mirf.X.debug.o
+__Htext28 0 0 ABS 0 text28 dist/default/debug\pic_mirf.X.debug.o
+__Htext29 0 0 ABS 0 text29 dist/default/debug\pic_mirf.X.debug.o
+__Htext30 0 0 ABS 0 text30 dist/default/debug\pic_mirf.X.debug.o
+__Htext31 0 0 ABS 0 text31 dist/default/debug\pic_mirf.X.debug.o
+__Htext32 0 0 ABS 0 text32 dist/default/debug\pic_mirf.X.debug.o
+__Htext33 0 0 ABS 0 text33 dist/default/debug\pic_mirf.X.debug.o
+__Htext34 0 0 ABS 0 text34 dist/default/debug\pic_mirf.X.debug.o
+__Htext35 0 0 ABS 0 text35 dist/default/debug\pic_mirf.X.debug.o
+__Htext36 0 0 ABS 0 text36 dist/default/debug\pic_mirf.X.debug.o
+__Htext37 0 0 ABS 0 text37 dist/default/debug\pic_mirf.X.debug.o
+__Htext38 0 0 ABS 0 text38 dist/default/debug\pic_mirf.X.debug.o
+__Htext39 0 0 ABS 0 text39 dist/default/debug\pic_mirf.X.debug.o
+__Htext40 0 0 ABS 0 text40 dist/default/debug\pic_mirf.X.debug.o
+__Htext41 0 0 ABS 0 text41 dist/default/debug\pic_mirf.X.debug.o
+__Htext42 0 0 ABS 0 text42 dist/default/debug\pic_mirf.X.debug.o
+__Htext43 0 0 ABS 0 text43 dist/default/debug\pic_mirf.X.debug.o
+__Htext44 0 0 ABS 0 text44 dist/default/debug\pic_mirf.X.debug.o
+__Htext45 0 0 ABS 0 text45 dist/default/debug\pic_mirf.X.debug.o
+__Htext46 0 0 ABS 0 text46 dist/default/debug\pic_mirf.X.debug.o
+__Htext47 0 0 ABS 0 text47 dist/default/debug\pic_mirf.X.debug.o
+__Htext48 0 0 ABS 0 text48 dist/default/debug\pic_mirf.X.debug.o
+__Htext49 0 0 ABS 0 text49 dist/default/debug\pic_mirf.X.debug.o
+__Htext50 0 0 ABS 0 text50 dist/default/debug\pic_mirf.X.debug.o
+__Htext51 0 0 ABS 0 text51 dist/default/debug\pic_mirf.X.debug.o
+__Htext52 0 0 ABS 0 text52 dist/default/debug\pic_mirf.X.debug.o
+__Htext53 0 0 ABS 0 text53 dist/default/debug\pic_mirf.X.debug.o
+__Htext54 0 0 ABS 0 text54 dist/default/debug\pic_mirf.X.debug.o
+__Htext55 0 0 ABS 0 text55 dist/default/debug\pic_mirf.X.debug.o
+__Htext56 0 0 ABS 0 text56 dist/default/debug\pic_mirf.X.debug.o
+__Htext57 0 0 ABS 0 text57 dist/default/debug\pic_mirf.X.debug.o
+__Htext58 0 0 ABS 0 text58 dist/default/debug\pic_mirf.X.debug.o
+__Htext59 0 0 ABS 0 text59 dist/default/debug\pic_mirf.X.debug.o
+__Htext60 0 0 ABS 0 text60 dist/default/debug\pic_mirf.X.debug.o
+__Htext61 0 0 ABS 0 text61 dist/default/debug\pic_mirf.X.debug.o
+__Htext62 0 0 ABS 0 text62 dist/default/debug\pic_mirf.X.debug.o
+__Htext63 0 0 ABS 0 text63 dist/default/debug\pic_mirf.X.debug.o
+__Htext64 0 0 ABS 0 text64 dist/default/debug\pic_mirf.X.debug.o
+__Htext65 0 0 ABS 0 text65 dist/default/debug\pic_mirf.X.debug.o
+__Htext66 0 0 ABS 0 text66 dist/default/debug\pic_mirf.X.debug.o
+__Htext67 0 0 ABS 0 text67 dist/default/debug\pic_mirf.X.debug.o
+__Htext68 0 0 ABS 0 text68 dist/default/debug\pic_mirf.X.debug.o
+__Htext69 0 0 ABS 0 text69 dist/default/debug\pic_mirf.X.debug.o
+__Htext70 0 0 ABS 0 text70 dist/default/debug\pic_mirf.X.debug.o
+SPI_read_buff@buffer 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfpfcnvrt@fmt 588 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_INTERRUPT_InterruptManager 11D44 0 CODE 0 text56 dist/default/debug\pic_mirf.X.debug.o
+___awmod@counter 564 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_dataReady@dev 50E 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_PIE0bits 49E 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIE1bits 49F 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIE3bits 4A1 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIR10bits 4B8 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1_Deinitialize 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getData@dev 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+pad@buf 572 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_print_address_register 11AC2 0 CODE 0 text15 dist/default/debug\pic_mirf.X.debug.o
+_DELAY_milliseconds 12410 0 CODE 0 text47 dist/default/debug\pic_mirf.X.debug.o
+i2SPI_read_buff@bytes 505 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__ptext10 12200 0 CODE 0 text10 dist/default/debug\pic_mirf.X.debug.o
+__ptext11 120FC 0 CODE 0 text11 dist/default/debug\pic_mirf.X.debug.o
+__ptext12 1080C 0 CODE 0 text12 dist/default/debug\pic_mirf.X.debug.o
+__ptext13 11DD2 0 CODE 0 text13 dist/default/debug\pic_mirf.X.debug.o
+__ptext14 12098 0 CODE 0 text14 dist/default/debug\pic_mirf.X.debug.o
+__ptext15 11A16 0 CODE 0 text15 dist/default/debug\pic_mirf.X.debug.o
+__ptext16 12596 0 CODE 0 text16 dist/default/debug\pic_mirf.X.debug.o
+__ptext17 12154 0 CODE 0 text17 dist/default/debug\pic_mirf.X.debug.o
+__ptext18 10000 0 CODE 0 text18 dist/default/debug\pic_mirf.X.debug.o
+__ptext19 10F58 0 CODE 0 text19 dist/default/debug\pic_mirf.X.debug.o
+__ptext20 10BAA 0 CODE 0 text20 dist/default/debug\pic_mirf.X.debug.o
+__ptext21 11336 0 CODE 0 text21 dist/default/debug\pic_mirf.X.debug.o
+__ptext22 10A2E 0 CODE 0 text22 dist/default/debug\pic_mirf.X.debug.o
+__ptext23 11AC2 0 CODE 0 text23 dist/default/debug\pic_mirf.X.debug.o
+__ptext24 1224A 0 CODE 0 text24 dist/default/debug\pic_mirf.X.debug.o
+__ptext25 11404 0 CODE 0 text25 dist/default/debug\pic_mirf.X.debug.o
+__ptext26 127D8 0 CODE 0 text26 dist/default/debug\pic_mirf.X.debug.o
+__ptext27 1233A 0 CODE 0 text27 dist/default/debug\pic_mirf.X.debug.o
+__ptext28 11966 0 CODE 0 text28 dist/default/debug\pic_mirf.X.debug.o
+__ptext29 117EE 0 CODE 0 text29 dist/default/debug\pic_mirf.X.debug.o
+__ptext30 126D2 0 CODE 0 text30 dist/default/debug\pic_mirf.X.debug.o
+__ptext31 12634 0 CODE 0 text31 dist/default/debug\pic_mirf.X.debug.o
+__ptext32 121AA 0 CODE 0 text32 dist/default/debug\pic_mirf.X.debug.o
+__ptext33 11FBC 0 CODE 0 text33 dist/default/debug\pic_mirf.X.debug.o
+__ptext34 1253C 0 CODE 0 text34 dist/default/debug\pic_mirf.X.debug.o
+__ptext35 11262 0 CODE 0 text35 dist/default/debug\pic_mirf.X.debug.o
+__ptext36 12370 0 CODE 0 text36 dist/default/debug\pic_mirf.X.debug.o
+__ptext37 125BE 0 CODE 0 text37 dist/default/debug\pic_mirf.X.debug.o
+__ptext38 11E56 0 CODE 0 text38 dist/default/debug\pic_mirf.X.debug.o
+__ptext39 125E6 0 CODE 0 text39 dist/default/debug\pic_mirf.X.debug.o
+__ptext40 126EE 0 CODE 0 text40 dist/default/debug\pic_mirf.X.debug.o
+__ptext41 127CC 0 CODE 0 text41 dist/default/debug\pic_mirf.X.debug.o
+__ptext42 11F4A 0 CODE 0 text42 dist/default/debug\pic_mirf.X.debug.o
+__ptext43 123DC 0 CODE 0 text43 dist/default/debug\pic_mirf.X.debug.o
+__ptext44 122CC 0 CODE 0 text44 dist/default/debug\pic_mirf.X.debug.o
+__ptext45 126B4 0 CODE 0 text45 dist/default/debug\pic_mirf.X.debug.o
+__ptext46 12292 0 CODE 0 text46 dist/default/debug\pic_mirf.X.debug.o
+__ptext47 12410 0 CODE 0 text47 dist/default/debug\pic_mirf.X.debug.o
+__ptext48 12790 0 CODE 0 text48 dist/default/debug\pic_mirf.X.debug.o
+__ptext49 12720 0 CODE 0 text49 dist/default/debug\pic_mirf.X.debug.o
+__ptext50 11C06 0 CODE 0 text50 dist/default/debug\pic_mirf.X.debug.o
+__ptext51 123A6 0 CODE 0 text51 dist/default/debug\pic_mirf.X.debug.o
+__ptext52 127A2 0 CODE 0 text52 dist/default/debug\pic_mirf.X.debug.o
+__ptext53 127B0 0 CODE 0 text53 dist/default/debug\pic_mirf.X.debug.o
+__ptext54 1277C 0 CODE 0 text54 dist/default/debug\pic_mirf.X.debug.o
+__ptext55 127BE 0 CODE 0 text55 dist/default/debug\pic_mirf.X.debug.o
+__ptext56 11D44 0 CODE 0 text56 dist/default/debug\pic_mirf.X.debug.o
+__ptext57 11728 0 CODE 0 text57 dist/default/debug\pic_mirf.X.debug.o
+__ptext58 11164 0 CODE 0 text58 dist/default/debug\pic_mirf.X.debug.o
+__ptext59 1202A 0 CODE 0 text59 dist/default/debug\pic_mirf.X.debug.o
+__ptext60 12750 0 CODE 0 text60 dist/default/debug\pic_mirf.X.debug.o
+__ptext61 105D8 0 CODE 0 text61 dist/default/debug\pic_mirf.X.debug.o
+__ptext62 12478 0 CODE 0 text62 dist/default/debug\pic_mirf.X.debug.o
+__ptext63 12738 0 CODE 0 text63 dist/default/debug\pic_mirf.X.debug.o
+__ptext64 1260E 0 CODE 0 text64 dist/default/debug\pic_mirf.X.debug.o
+__ptext65 12766 0 CODE 0 text65 dist/default/debug\pic_mirf.X.debug.o
+__ptext66 1250C 0 CODE 0 text66 dist/default/debug\pic_mirf.X.debug.o
+__ptext67 12444 0 CODE 0 text67 dist/default/debug\pic_mirf.X.debug.o
+__ptext68 1256A 0 CODE 0 text68 dist/default/debug\pic_mirf.X.debug.o
+__ptext69 124AA 0 CODE 0 text69 dist/default/debug\pic_mirf.X.debug.o
+__ptext70 127DA 0 CODE 0 text70 dist/default/debug\pic_mirf.X.debug.o
+_IOCCFbits 417 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCCNbits 416 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_PIN_MANAGER_Initialize 11CA6 0 CODE 0 text50 dist/default/debug\pic_mirf.X.debug.o
+___awdiv 117EE 0 CODE 0 text29 dist/default/debug\pic_mirf.X.debug.o
+___awmod 11966 0 CODE 0 text28 dist/default/debug\pic_mirf.X.debug.o
+_TMR0_OverflowCallbackRegister 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Lbank10 0 0 ABS 0 bank10 dist/default/debug\pic_mirf.X.debug.o
+__Lbank11 0 0 ABS 0 bank11 dist/default/debug\pic_mirf.X.debug.o
+__Lbank12 0 0 ABS 0 bank12 dist/default/debug\pic_mirf.X.debug.o
+__Lbank13 0 0 ABS 0 bank13 dist/default/debug\pic_mirf.X.debug.o
+__Lbank14 0 0 ABS 0 bank14 dist/default/debug\pic_mirf.X.debug.o
+__Lbank15 0 0 ABS 0 bank15 dist/default/debug\pic_mirf.X.debug.o
+__Lbank16 0 0 ABS 0 bank16 dist/default/debug\pic_mirf.X.debug.o
+__Lbank17 0 0 ABS 0 bank17 dist/default/debug\pic_mirf.X.debug.o
+__Lbank18 0 0 ABS 0 bank18 dist/default/debug\pic_mirf.X.debug.o
+__Lbank19 0 0 ABS 0 bank19 dist/default/debug\pic_mirf.X.debug.o
+__Lbank20 0 0 ABS 0 bank20 dist/default/debug\pic_mirf.X.debug.o
+__Lbank21 0 0 ABS 0 bank21 dist/default/debug\pic_mirf.X.debug.o
+__Lbank22 0 0 ABS 0 bank22 dist/default/debug\pic_mirf.X.debug.o
+__Lbank23 0 0 ABS 0 bank23 dist/default/debug\pic_mirf.X.debug.o
+__Lbank24 0 0 ABS 0 bank24 dist/default/debug\pic_mirf.X.debug.o
+__Lbank25 0 0 ABS 0 bank25 dist/default/debug\pic_mirf.X.debug.o
+__Lbank26 0 0 ABS 0 bank26 dist/default/debug\pic_mirf.X.debug.o
+__Lbank27 0 0 ABS 0 bank27 dist/default/debug\pic_mirf.X.debug.o
+__Lbank28 0 0 ABS 0 bank28 dist/default/debug\pic_mirf.X.debug.o
+__Lbank29 0 0 ABS 0 bank29 dist/default/debug\pic_mirf.X.debug.o
+__Lbank30 0 0 ABS 0 bank30 dist/default/debug\pic_mirf.X.debug.o
+__Lbank31 0 0 ABS 0 bank31 dist/default/debug\pic_mirf.X.debug.o
+__Lbank32 0 0 ABS 0 bank32 dist/default/debug\pic_mirf.X.debug.o
+__Lbank33 0 0 ABS 0 bank33 dist/default/debug\pic_mirf.X.debug.o
+__Lbank34 0 0 ABS 0 bank34 dist/default/debug\pic_mirf.X.debug.o
+__Lbank35 0 0 ABS 0 bank35 dist/default/debug\pic_mirf.X.debug.o
+__Lbank36 0 0 ABS 0 bank36 dist/default/debug\pic_mirf.X.debug.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\pic_mirf.X.debug.o
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\pic_mirf.X.debug.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/debug\pic_mirf.X.debug.o
+SPI1_ByteExchange@byteData 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_INT2_InterruptHandler 542 0 COMRAM 1 nvCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_printDetails@dev 5BB 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Lcomram 0 0 ABS 0 comram dist/default/debug\pic_mirf.X.debug.o
+__Lconfig 0 0 CONFIG 4 config dist/default/debug\pic_mirf.X.debug.o
+_printf 12596 0 CODE 0 text16 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_configRegister 126D2 0 CODE 0 text45 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_ByteExchange 12292 0 CODE 0 text46 dist/default/debug\pic_mirf.X.debug.o
+_LATAbits 4BE 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_LATCbits 4C0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_read_prec_or_width 11404 0 CODE 0 text21 dist/default/debug\pic_mirf.X.debug.o
+__end_of_DELAY_microseconds 12154 0 CODE 0 text11 dist/default/debug\pic_mirf.X.debug.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\pic_mirf.X.debug.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+main@gridB 900 0 BANK9 1 cstackBANK9 dist/default/debug\pic_mirf.X.debug.o
+main@gridE 600 0 BANK6 1 cstackBANK6 dist/default/debug\pic_mirf.X.debug.o
+main@gridG 800 0 BANK8 1 cstackBANK8 dist/default/debug\pic_mirf.X.debug.o
+main@gridR 700 0 BANK7 1 cstackBANK7 dist/default/debug\pic_mirf.X.debug.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\pic_mirf.X.debug.o
+isa$std 1 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+__end_of_CLOCK_Initialize 12790 0 CODE 0 text54 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getPALevel@level 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_SPI1_Open 11336 0 CODE 0 text35 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_getDataRate 12200 0 CODE 0 text32 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_Nrf24_getData 124AA 0 CODE 0 text62 dist/default/debug\pic_mirf.X.debug.o
+stackhi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+stacklo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+stoa@cp 573 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+stoa@fp 569 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+RC6_SetInterruptHandler@InterruptHandler 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+sendGrid@index 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_OSCCON1 AD 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_OSCCON3 AF 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_OSCTUNE B0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_sendRGB 12696 0 CODE 0 text3 dist/default/debug\pic_mirf.X.debug.o
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\pic_mirf.X.debug.o
+__Livt0x8 8 0 CODE 0 ivt0x8 dist/default/debug\pic_mirf.X.debug.o
+_INT1_InterruptHandler 545 0 COMRAM 1 nvCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__pbssBANK10 A00 0 BANK10 1 bssBANK10 dist/default/debug\pic_mirf.X.debug.o
+__pbssBANK14 E00 0 BANK14 1 bssBANK14 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_Nrf24_configRegister 12750 0 CODE 0 text63 dist/default/debug\pic_mirf.X.debug.o
+_INT1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_nrf_interrupt 11728 0 CODE 0 text57 dist/default/debug\pic_mirf.X.debug.o
+__Lspace_0 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Lspace_1 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Lspace_2 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Lspace_4 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_sendByte 10392 0 CODE 0 text4 dist/default/debug\pic_mirf.X.debug.o
+_sendCell 11ED8 0 CODE 0 text2 dist/default/debug\pic_mirf.X.debug.o
+_sendGrid 11060 0 CODE 0 text1 dist/default/debug\pic_mirf.X.debug.o
+__pbssCOMRAM 537 0 COMRAM 1 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_Nrf24_getStatus 1277C 0 CODE 0 text65 dist/default/debug\pic_mirf.X.debug.o
+__HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__HcstackBANK6 0 0 ABS 0 cstackBANK6 dist/default/debug\pic_mirf.X.debug.o
+__HcstackBANK7 0 0 ABS 0 cstackBANK7 dist/default/debug\pic_mirf.X.debug.o
+__HcstackBANK8 0 0 ABS 0 cstackBANK8 dist/default/debug\pic_mirf.X.debug.o
+__HcstackBANK9 0 0 ABS 0 cstackBANK9 dist/default/debug\pic_mirf.X.debug.o
+nrf_interrupt@i 533 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_SPI1_ByteWrite 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_getStatus@dev 50B 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_PIR0bits 4AE 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIR1bits 4AF 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIR3bits 4B1 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_PIR6bits 4B4 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+vfpfcnvrt@convarg 58E 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+printf@ap 5AB 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI1TCNTH 83 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1TCNTL 82 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+end_of_initialization 10F52 0 CODE 0 cinit dist/default/debug\pic_mirf.X.debug.o
+_SPI1_Open 11262 0 CODE 0 text35 dist/default/debug\pic_mirf.X.debug.o
+_read_prec_or_width 11336 0 CODE 0 text21 dist/default/debug\pic_mirf.X.debug.o
+_TMR0_Initialize 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_DELAY_microseconds 120FC 0 CODE 0 text11 dist/default/debug\pic_mirf.X.debug.o
+__end_of_sendByte 105D8 0 CODE 0 text4 dist/default/debug\pic_mirf.X.debug.o
+__end_of_sendCell 11F4A 0 CODE 0 text2 dist/default/debug\pic_mirf.X.debug.o
+__end_of_sendGrid 11164 0 CODE 0 text1 dist/default/debug\pic_mirf.X.debug.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getRetransmitDelay@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+fputc@c 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+fputs@c 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+fputs@i 56E 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+fputs@s 569 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_printDetails@delay 5C1 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+___awdiv@quotient 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+?___awdiv 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+?___awmod 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+SPI_read_buff@i 565 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfprintf@fmt 597 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_SetSpeedDataRates 11F4A 0 CODE 0 text42 dist/default/debug\pic_mirf.X.debug.o
+__HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/debug\pic_mirf.X.debug.o
+__HbssBANK7 0 0 ABS 0 bssBANK7 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_writeRegister 1233A 0 CODE 0 text9 dist/default/debug\pic_mirf.X.debug.o
+i2_Nrf24_readRegister 1250C 0 CODE 0 text66 dist/default/debug\pic_mirf.X.debug.o
+___awmod@dividend 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_INT0_InterruptHandler 53A 0 COMRAM 1 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_INT1_SetInterruptHandler 127B0 0 CODE 0 text53 dist/default/debug\pic_mirf.X.debug.o
+__Lramtop 2600 0 RAM 0 ramtop dist/default/debug\pic_mirf.X.debug.o
+Nrf24_configRegister@value 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_sendRGB 12766 0 CODE 0 text60 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_SetSpeedDataRates 11FBC 0 CODE 0 text42 dist/default/debug\pic_mirf.X.debug.o
+__end_ofi2_Nrf24_dataReady 12634 0 CODE 0 text64 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getCRCLength@AA 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_setRADDR 11B66 0 CODE 0 text8 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_setTADDR 118B2 0 CODE 0 text6 dist/default/debug\pic_mirf.X.debug.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getStatus@rv 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_TMR0_Start 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__pcinit 10E48 0 CODE 0 cinit dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getDataRate@dev 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfpfcnvrt@ap 58A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfpfcnvrt@cp 593 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfpfcnvrt@fp 586 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__ptext0 11CA6 0 CODE 0 text0 dist/default/debug\pic_mirf.X.debug.o
+__ptext1 11060 0 CODE 0 text1 dist/default/debug\pic_mirf.X.debug.o
+__ptext2 11ED8 0 CODE 0 text2 dist/default/debug\pic_mirf.X.debug.o
+__ptext3 12696 0 CODE 0 text3 dist/default/debug\pic_mirf.X.debug.o
+__ptext4 10392 0 CODE 0 text4 dist/default/debug\pic_mirf.X.debug.o
+__ptext5 10D22 0 CODE 0 text5 dist/default/debug\pic_mirf.X.debug.o
+__ptext6 118B2 0 CODE 0 text6 dist/default/debug\pic_mirf.X.debug.o
+__ptext7 124DC 0 CODE 0 text7 dist/default/debug\pic_mirf.X.debug.o
+__ptext8 11B66 0 CODE 0 text8 dist/default/debug\pic_mirf.X.debug.o
+__ptext9 12304 0 CODE 0 text9 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setTADDR@buffer 571 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\pic_mirf.X.debug.o
+vfprintf@ap 599 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfprintf@fp 595 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+vfprintf@cfmt 59B 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI_read_buff 122CC 0 CODE 0 text44 dist/default/debug\pic_mirf.X.debug.o
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\pic_mirf.X.debug.o
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\pic_mirf.X.debug.o
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\pic_mirf.X.debug.o
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\pic_mirf.X.debug.o
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\pic_mirf.X.debug.o
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\pic_mirf.X.debug.o
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\pic_mirf.X.debug.o
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\pic_mirf.X.debug.o
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\pic_mirf.X.debug.o
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\pic_mirf.X.debug.o
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\pic_mirf.X.debug.o
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\pic_mirf.X.debug.o
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\pic_mirf.X.debug.o
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\pic_mirf.X.debug.o
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\pic_mirf.X.debug.o
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\pic_mirf.X.debug.o
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\pic_mirf.X.debug.o
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\pic_mirf.X.debug.o
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\pic_mirf.X.debug.o
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\pic_mirf.X.debug.o
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\pic_mirf.X.debug.o
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\pic_mirf.X.debug.o
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\pic_mirf.X.debug.o
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\pic_mirf.X.debug.o
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\pic_mirf.X.debug.o
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\pic_mirf.X.debug.o
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\pic_mirf.X.debug.o
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\pic_mirf.X.debug.o
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\pic_mirf.X.debug.o
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\pic_mirf.X.debug.o
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\pic_mirf.X.debug.o
+__Ltext41 0 0 ABS 0 text41 dist/default/debug\pic_mirf.X.debug.o
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\pic_mirf.X.debug.o
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\pic_mirf.X.debug.o
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\pic_mirf.X.debug.o
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\pic_mirf.X.debug.o
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\pic_mirf.X.debug.o
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\pic_mirf.X.debug.o
+__Ltext48 0 0 ABS 0 text48 dist/default/debug\pic_mirf.X.debug.o
+__Ltext49 0 0 ABS 0 text49 dist/default/debug\pic_mirf.X.debug.o
+__Ltext50 0 0 ABS 0 text50 dist/default/debug\pic_mirf.X.debug.o
+__Ltext51 0 0 ABS 0 text51 dist/default/debug\pic_mirf.X.debug.o
+__Ltext52 0 0 ABS 0 text52 dist/default/debug\pic_mirf.X.debug.o
+__Ltext53 0 0 ABS 0 text53 dist/default/debug\pic_mirf.X.debug.o
+__Ltext54 0 0 ABS 0 text54 dist/default/debug\pic_mirf.X.debug.o
+__Ltext55 0 0 ABS 0 text55 dist/default/debug\pic_mirf.X.debug.o
+__Ltext56 0 0 ABS 0 text56 dist/default/debug\pic_mirf.X.debug.o
+__Ltext57 0 0 ABS 0 text57 dist/default/debug\pic_mirf.X.debug.o
+__Ltext58 0 0 ABS 0 text58 dist/default/debug\pic_mirf.X.debug.o
+__Ltext59 0 0 ABS 0 text59 dist/default/debug\pic_mirf.X.debug.o
+__Ltext60 0 0 ABS 0 text60 dist/default/debug\pic_mirf.X.debug.o
+__Ltext61 0 0 ABS 0 text61 dist/default/debug\pic_mirf.X.debug.o
+__Ltext62 0 0 ABS 0 text62 dist/default/debug\pic_mirf.X.debug.o
+__Ltext63 0 0 ABS 0 text63 dist/default/debug\pic_mirf.X.debug.o
+__Ltext64 0 0 ABS 0 text64 dist/default/debug\pic_mirf.X.debug.o
+__Ltext65 0 0 ABS 0 text65 dist/default/debug\pic_mirf.X.debug.o
+__Ltext66 0 0 ABS 0 text66 dist/default/debug\pic_mirf.X.debug.o
+__Ltext67 0 0 ABS 0 text67 dist/default/debug\pic_mirf.X.debug.o
+__Ltext68 0 0 ABS 0 text68 dist/default/debug\pic_mirf.X.debug.o
+__Ltext69 0 0 ABS 0 text69 dist/default/debug\pic_mirf.X.debug.o
+__Ltext70 0 0 ABS 0 text70 dist/default/debug\pic_mirf.X.debug.o
+__ramtop 2600 0 RAM 0 ramtop C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+i2_Nrf24_getData 12478 0 CODE 0 text62 dist/default/debug\pic_mirf.X.debug.o
+sendByte@byte 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_ByteExchange$intlevel0 1229C 0 CODE 0 text46 dist/default/debug\pic_mirf.X.debug.o
+_vfprintf 12154 0 CODE 0 text17 dist/default/debug\pic_mirf.X.debug.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_address_register@dev 5AD 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_address_register@qty 5B2 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_print_address_register@reg 5B1 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\pic_mirf.X.debug.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\pic_mirf.X.debug.o
+Nrf24_setRADDR@i 578 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_getStatus 12708 0 CODE 0 text40 dist/default/debug\pic_mirf.X.debug.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\pic_mirf.X.debug.o
+i2_sendRGB 12750 0 CODE 0 text60 dist/default/debug\pic_mirf.X.debug.o
+__end_of_vfprintf 121AA 0 CODE 0 text17 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_flushRx@dev 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_SLRCONA 403 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SLRCONB 40B 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SLRCONC 413 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SLRCOND 41B 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SLRCONE 423 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SLRCONF 42B 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+___heap_hi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+___heap_lo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+i2Nrf24_readRegister@value 507 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+___param_bank 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAslr4.\driver_tmp_14.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\pic_mirf.X.debug.o
+__end_of__initialization 10F52 0 CODE 0 cinit dist/default/debug\pic_mirf.X.debug.o
+___awmod@divisor 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+SPI_write_buff@buffer 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_received_data A00 0 BANK10 1 bssBANK10 dist/default/debug\pic_mirf.X.debug.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\pic_mirf.X.debug.o
+__pidataBANK6 12708 0 CODE 0 idataBANK6 dist/default/debug\pic_mirf.X.debug.o
+__pidataBANK8 12656 0 CODE 0 idataBANK8 dist/default/debug\pic_mirf.X.debug.o
+__pidataBANK9 12676 0 CODE 0 idataBANK9 dist/default/debug\pic_mirf.X.debug.o
+i2sendGrid@gridSize 511 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_getDataRate 121AA 0 CODE 0 text32 dist/default/debug\pic_mirf.X.debug.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\pic_mirf.X.debug.o
+_SPI1CLK 8C 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1RXB 80 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_SPI1TXB 81 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_rf24_pa_dbm 9C8 0 BANK9 1 dataBANK9 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_dataReady 125E6 0 CODE 0 text37 dist/default/debug\pic_mirf.X.debug.o
+__pcstackCOMRAM 501 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_setRADDR 11C06 0 CODE 0 text8 dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_setTADDR 11966 0 CODE 0 text6 dist/default/debug\pic_mirf.X.debug.o
+_T0CON0bits 31A 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+i2_Nrf24_getStatus 12766 0 CODE 0 text65 dist/default/debug\pic_mirf.X.debug.o
+INTSTAT_ADDR D7 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__pmediumconst FE52 0 MEDIUMCONST 0 mediumconst dist/default/debug\pic_mirf.X.debug.o
+__end_of_Nrf24_printDetails 10A2E 0 CODE 0 text12 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_config@payload 570 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_dtoa 10BAA 0 CODE 0 text22 dist/default/debug\pic_mirf.X.debug.o
+__end_of_main 11D44 0 CODE 0 text0 dist/default/debug\pic_mirf.X.debug.o
+__end_of_stoa 10D22 0 CODE 0 text20 dist/default/debug\pic_mirf.X.debug.o
+__end_of_xtoa 11060 0 CODE 0 text19 dist/default/debug\pic_mirf.X.debug.o
+_SPI1_IsTxReady 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+printf@fmt 59D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+?_Nrf24_setRADDR 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+?_Nrf24_setTADDR 56A 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_IOCAF 407 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCAN 406 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCAP 405 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCBF 40F 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCBN 40E 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCBP 40D 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCCF 417 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCCN 416 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCCP 415 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCEF 427 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCEN 426 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_IOCEP 425 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_fputc 114D0 0 CODE 0 text25 dist/default/debug\pic_mirf.X.debug.o
+__end_of_fputs 12292 0 CODE 0 text24 dist/default/debug\pic_mirf.X.debug.o
+_OSCEN B3 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TMR0H 319 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TMR0L 318 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TRISA 4C6 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TRISB 4C7 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TRISC 4C8 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TRISD 4C9 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TRISE 4CA 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+_TRISF 4CB 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__end_of_putch 127DA 0 CODE 0 text26 dist/default/debug\pic_mirf.X.debug.o
+__HRAM 0 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Hbss 0 0 RAM 1 bss dist/default/debug\pic_mirf.X.debug.o
+__Hram 0 0 ABS 0 ram dist/default/debug\pic_mirf.X.debug.o
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\pic_mirf.X.debug.o
+__LRAM 1 0 ABS 0 - dist/default/debug\pic_mirf.X.debug.o
+__Lbss 0 0 RAM 1 bss dist/default/debug\pic_mirf.X.debug.o
+__Lram 0 0 ABS 0 ram dist/default/debug\pic_mirf.X.debug.o
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\pic_mirf.X.debug.o
+_flags 5EA 0 BANK5 1 bssBANK5 dist/default/debug\pic_mirf.X.debug.o
+_fputc 11404 0 CODE 0 text25 dist/default/debug\pic_mirf.X.debug.o
+_fputs 1224A 0 CODE 0 text24 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_getStatus 126EE 0 CODE 0 text40 dist/default/debug\pic_mirf.X.debug.o
+_putch 127D8 0 CODE 0 text26 dist/default/debug\pic_mirf.X.debug.o
+read_prec_or_width@fmt 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_width 5E6 0 BANK5 1 bssBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_readRegister@value 566 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+Nrf24_getData@data 568 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_print_byte_register 12098 0 CODE 0 text14 dist/default/debug\pic_mirf.X.debug.o
+__HdataBANK6 0 0 ABS 0 dataBANK6 dist/default/debug\pic_mirf.X.debug.o
+__HdataBANK8 0 0 ABS 0 dataBANK8 dist/default/debug\pic_mirf.X.debug.o
+__HdataBANK9 0 0 ABS 0 dataBANK9 dist/default/debug\pic_mirf.X.debug.o
+__pdataBANK11 B00 0 BANK11 1 dataBANK11 dist/default/debug\pic_mirf.X.debug.o
+__pdataBANK12 C00 0 BANK12 1 dataBANK12 dist/default/debug\pic_mirf.X.debug.o
+__pdataBANK13 D00 0 BANK13 1 dataBANK13 dist/default/debug\pic_mirf.X.debug.o
+i2_Nrf24_dataReady 1260E 0 CODE 0 text64 dist/default/debug\pic_mirf.X.debug.o
+__initialization 10E48 0 CODE 0 cinit dist/default/debug\pic_mirf.X.debug.o
+i2sendRGB@b 503 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+i2sendRGB@g 502 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+i2sendRGB@r 504 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_config@dev 56D 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__pbssBANK5 5E6 0 BANK5 1 bssBANK5 dist/default/debug\pic_mirf.X.debug.o
+__pbssBANK7 7C8 0 BANK7 1 bssBANK7 dist/default/debug\pic_mirf.X.debug.o
+_received_index 53D 0 COMRAM 1 bssCOMRAM dist/default/debug\pic_mirf.X.debug.o
+Nrf24_dataReady@status 56F 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_flushRx 127CC 0 CODE 0 text41 dist/default/debug\pic_mirf.X.debug.o
+DELAY_microseconds@microseconds 560 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\pic_mirf.X.debug.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\pic_mirf.X.debug.o
+nrf_interrupt@buf 513 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+_TMR0_OverflowISR 124AA 0 CODE 0 text69 dist/default/debug\pic_mirf.X.debug.o
+dtoa@d 57B 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+dtoa@i 583 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+dtoa@p 57F 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+dtoa@s 582 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+dtoa@w 580 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+sendGrid@col 56C 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+sendGrid@row 56E 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+__end_of_nrf_interrupt 117EE 0 CODE 0 text57 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_printDetails 1080C 0 CODE 0 text12 dist/default/debug\pic_mirf.X.debug.o
+i2Nrf24_dataReady@status 510 0 COMRAM 1 cstackCOMRAM dist/default/debug\pic_mirf.X.debug.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\pic_mirf.X.debug.o
+init_nrf@buf 5C4 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+init_nrf@ret 5E4 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_getRetransmitDelay 126D2 0 CODE 0 text30 dist/default/debug\pic_mirf.X.debug.o
+_Nrf24_dataReady 125BE 0 CODE 0 text37 dist/default/debug\pic_mirf.X.debug.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\pic_mirf.X.debug.o
+read_prec_or_width@ap 562 0 BANK5 1 cstackBANK5 dist/default/debug\pic_mirf.X.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+ivt0x8 0 8 8 16 1
+text18 0 10000 10000 27DC 1
+cstackCOMRAM 1 501 501 4A 1
+cstackBANK5 1 560 560 8B 1
+cstackBANK6 1 600 600 100 1
+cstackBANK7 1 700 700 E8 1
+cstackBANK8 1 800 800 E8 1
+cstackBANK9 1 900 900 E8 1
+reset_vec 0 0 0 4 1
+dataBANK11 1 B00 B00 C8 1
+dataBANK12 1 C00 C00 C8 1
+dataBANK13 1 D00 D00 C8 1
+bssBANK10 1 A00 A00 C8 1
+bssBANK14 1 E00 E00 C8 1
+mediumconst 0 FE52 FE52 1AE 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
