@@ -1,5 +1,0 @@
-dependencies:
-  espressif/esp_websocket_client: "*"
-  espressif/esp32-camera:
-    version: '*'
-    
