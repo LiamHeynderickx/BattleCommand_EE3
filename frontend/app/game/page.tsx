@@ -334,7 +334,7 @@ const GamePage = () => {
     let isHit = false;
     
     // Check if hit or miss and update grid
-    if (botBoard[row][col] === 1 || typeof botBoard[row][col] === "string") {
+    if (botBoard[row][col] !== 0 || typeof botBoard[row][col] === "string") {
       console.log(`Human attacked ${col},${row} and hit a ship.`);
       isHit = true;
       
