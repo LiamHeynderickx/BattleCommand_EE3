@@ -1,4 +1,9 @@
+#online sources used
+#https://github.com/neemiasbsilva/object-detection-opencv
 #https://www.geeksforgeeks.org/opencv-python-tutorial/
+
+#Chat gpt was used to generate portions of code that was then adjusted and edited according to 
+# our needs
 
 import cv2
 import numpy as np
