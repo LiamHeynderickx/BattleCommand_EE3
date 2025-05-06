@@ -1,3 +1,5 @@
+#https://www.geeksforgeeks.org/opencv-python-tutorial/
+
 import cv2
 import numpy as np
 import argparse
@@ -77,7 +79,7 @@ warped_hsv = cv2.cvtColor(warped, cv2.COLOR_BGR2HSV)
 
 #define the range for black boats (this may need to be changed depending on testing and we may change boat colour)
 lower_black = np.array([0, 0, 0])
-upper_black = np.array([180, 255, 120])
+upper_black = np.array([180, 255, 130])
 
 #Create mask for black color
 black_mask = cv2.inRange(warped_hsv, lower_black, upper_black)

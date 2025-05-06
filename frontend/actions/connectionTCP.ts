@@ -30,7 +30,7 @@ export function generateLEDArray(humanBoard: (number | string)[][], botBoard: (n
       const key = `${col},${row}`; // key for tracking attacked cells
       
       if (botAttacked.has(key)) {
-        if (botBoard[row][col] === 1 || typeof botBoard[row][col] === "string") {
+        if (botBoard[row][col] !== 0 || typeof botBoard[row][col] === "string") {
           // Hit on the bot's board (Boat hit)
           ledArray.push(2);
         } else {
