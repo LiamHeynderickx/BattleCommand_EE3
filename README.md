@@ -3,3 +3,5 @@ Inside of the various branches, you can find the different parts of our code. Th
 Please Review the WIKI for information about each module.
 
 The Paper written regarding this project can be seen in main.
+
+This project was done in a group, all members can be seen as contributors in this repository.
